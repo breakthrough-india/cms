@@ -15,7 +15,7 @@
         {{ end }}
       {{ end }}
       {{/* ── State Chapters dropdown ─────────────────────────────────────── */}}
-      {{ if hugo.Data.states }}
+      {{ if hugo.Data.states.states }}
       <li class="nav-dropdown">
         <button class="nav-dropdown-btn" aria-expanded="false" aria-haspopup="true">
           State Chapters
@@ -24,7 +24,7 @@
           </svg>
         </button>
         <ul class="nav-dropdown-menu" role="menu">
-          {{ range hugo.Data.states }}
+          {{ range hugo.Data.states.states }}
           <li role="none">
             <a href="{{ site.BaseURL }}states/{{ .slug }}/" role="menuitem">{{ .name }}</a>
           </li>

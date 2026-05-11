@@ -9,7 +9,7 @@
 
 <div class="content-wrap">
   <div class="state-chapters-index">
-    {{ range hugo.Data.states }}
+    {{ range hugo.Data.states.states }}
     {{ $term := site.GetPage (printf "/states/%s" .slug) }}
     <a class="state-chapter-card" href="{{ if $term }}{{ $term.RelPermalink }}{{ else }}/states/{{ .slug }}/{{ end }}">
       <h2>{{ .name }}</h2>

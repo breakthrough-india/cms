@@ -1,3 +1,4 @@
-- name: Karnataka
-  slug: karnataka
-  description: "News, events, and articles from the Karnataka state chapter."
+states:
+  - name: Karnataka
+    slug: karnataka
+    description: "News, events, and articles from the Karnataka state chapter."
