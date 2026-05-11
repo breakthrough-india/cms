@@ -1,23 +1,23 @@
 ---
-title: "What is JAMstack? The Architecture Behind Modern Web Development"
-date: 2026-04-06T19:17:24+05:30
-lastmod: 2026-04-06T19:17:24+05:30
+title: What is JAMstack???? The Architecture Behind Modern Web Development
+date: 2026-04-06T19:17:00+05:30
+lastmod: 2026-04-06T19:17:00+05:30
 draft: false
-description: "JAMstack is a modern web architecture built on JavaScript, APIs, and Markup. Learn how it works, why it's faster and more secure than traditional stacks, and how Hugo fits into the picture."
-author: "Admin"
-
-# Taxonomy
-categories: ["Tech"]
-tags: ["jamstack", "javascript", "static sites", "web development", "api"]
-
-# Visuals
-image: "images/jamstack.png"
-image_caption: ""
-
-# Features
+description: JAMstack is a modern web architecture built on JavaScript, APIs, and Markup. Learn how it works, why it's faster and more secure than traditional stacks, and how Hugo fits into the picture.
+author: Admin
+categories:
+  - Tech
+tags:
+  - jamstack
+  - javascript
+  - static sites
+  - web development
+  - api
+image: images/jamstack.png
+image_caption: ''
+priority: primary
 toc: true
 comments: true
-priority: "primary"
 ---
 
 JAMstack flips traditional web development on its head. Instead of generating pages on a server at request time, everything is pre-built, globally distributed, and served as static files. The result is a web that's faster, cheaper, and vastly more secure.
@@ -97,4 +97,3 @@ Hugo is one of the best entry points into JAMstack: it's a single binary, has no
 - [jamstack.org — What is JAMstack?](https://jamstack.org/what-is-jamstack/)
 - [Netlify — The JAMstack Origin Story](https://www.netlify.com/jamstack/)
 - [Hugo — The world's fastest framework for building websites](https://gohugo.io/)
-
