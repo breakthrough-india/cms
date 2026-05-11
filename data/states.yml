@@ -1,4 +1,7 @@
 states:
+  - name: Karnataka
+    slug: karnataka
+    description: ''
   - name: Kerala
     slug: kerala
     description: ''
