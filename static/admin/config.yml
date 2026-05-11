@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: anand-raj/cms-hugo-sveltia-theme1
+  repo: anand-raj/cms-theme2
   branch: main
   base_url: https://sveltia-cms-auth.e-anandraj.workers.dev
 
@@ -8,7 +8,7 @@ backend:
 media_folder: content/articles
 public_folder: /articles
 
-site_url: https://anand-raj.github.io/cms-hugo-sveltia-theme1/
+site_url: https://anand-raj.github.io/cms-theme2/
 
 collections:
   - name: articles
