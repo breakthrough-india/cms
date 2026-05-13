@@ -1,14 +1,14 @@
 backend:
   name: github
-  repo: anand-raj/cms-theme2
+  repo: breakthrough-india.github.io/cms
   branch: main
-  base_url: https://sveltia-cms-auth.e-anandraj.workers.dev
+  base_url: https://cms-auth.breakthrough-india.workers.dev
 
 # Store media in the page bundle alongside content
 media_folder: content/articles
 public_folder: /articles
 
-site_url: https://anand-raj.github.io/cms-theme2/
+site_url: https://breakthrough-india.github.io/cms/
 
 collections:
   - name: articles
