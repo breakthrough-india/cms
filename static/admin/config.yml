@@ -2,7 +2,7 @@ backend:
   name: github
   repo: breakthrough-india.github.io/cms
   branch: main
-  base_url: https://cms-auth.breakthrough-india.workers.dev
+  base_url: https://cms-auth.breakthrough-science-society.workers.dev
 
 # Store media in the page bundle alongside content
 media_folder: content/articles
