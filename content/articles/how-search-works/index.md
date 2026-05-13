@@ -1,10 +1,10 @@
 ---
-title: "How Search Works on This Site"
+title: How Search Works on This Site?
 date: 2026-04-09T14:00:00+05:30
 lastmod: 2026-04-09T14:00:00+05:30
 draft: false
-description: "A look under the hood at how the site's client-side search is built — using Hugo's JSON output, Fuse.js fuzzy matching, and zero backend infrastructure."
-author: "Admin"
+description: A look under the hood at how the site's client-side search is built — using Hugo's JSON output, Fuse.js fuzzy matching, and zero backend infrastructure.
+author: Admin
 categories:
   - Tech
 tags:
@@ -12,10 +12,10 @@ tags:
   - search
   - fuse.js
   - jamstack
+image: https://images.unsplash.com/photo-1555421689-d68471e189f2?w=1200&fm=webp&q=80
+image_caption: Photo by [Markus Winkler](https://unsplash.com/@markuswinkler) on [Unsplash](https://unsplash.com)
+priority: secondary
 toc: true
-image: "https://images.unsplash.com/photo-1555421689-d68471e189f2?w=1200&fm=webp&q=80"
-image_caption: "Photo by [Markus Winkler](https://unsplash.com/@markuswinkler) on [Unsplash](https://unsplash.com)"
-priority: "secondary"
 ---
 
 The search feature on this site runs entirely in the browser — no server, no database, no API calls after the first page load. Here is how it is built.
