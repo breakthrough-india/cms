@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: breakthrough-india.github.io/cms
+  repo: breakthrough-india/cms
   branch: main
   base_url: https://cms-auth.breakthrough-science-society.workers.dev
 
