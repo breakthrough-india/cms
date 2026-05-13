@@ -28,7 +28,7 @@ jobs:
 
       - name: Fetch state content — Karnataka
         run: |
-          git clone --depth=1 https://github.com/anand-raj/cms-theme2-karnataka.git /tmp/karnataka
+          git clone --depth=1 https://github.com/breakthrough-india/cms-karnataka.git /tmp/karnataka
           [ -d /tmp/karnataka/content/articles ] && cp -r /tmp/karnataka/content/articles/. content/articles/ || true
           [ -d /tmp/karnataka/content/events ]   && cp -r /tmp/karnataka/content/events/.   content/events/   || true
           [ -d /tmp/karnataka/content/news ]     && cp -r /tmp/karnataka/content/news/.     content/news/     || true
@@ -36,7 +36,7 @@ jobs:
       # Add more states here following the same pattern, e.g.:
       # - name: Fetch state content — Tamil Nadu
       #   run: |
-      #     git clone --depth=1 https://github.com/anand-raj/cms-content-tamilnadu.git /tmp/tamilnadu
+      #     git clone --depth=1 https://github.com/breakthrough-india/cms-tamilnadu.git /tmp/tamilnadu
       #     [ -d /tmp/tamilnadu/content/articles ] && cp -r /tmp/tamilnadu/content/articles/. content/articles/ || true
       #     [ -d /tmp/tamilnadu/content/events ]   && cp -r /tmp/tamilnadu/content/events/.   content/events/   || true
       #     [ -d /tmp/tamilnadu/content/news ]     && cp -r /tmp/tamilnadu/content/news/.     content/news/     || true
@@ -58,6 +58,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
+          retention-days: 1
 
   deploy:
     environment:
