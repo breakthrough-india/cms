@@ -17,8 +17,8 @@ news_show_description: true
 news_show_prev_next: true
 news_list_page_size: 8
 articles_list_page_size: 20
-events_worker_url: 'https://cms-events-theme2.e-anandraj.workers.dev'
-membership_worker_url: 'https://cms-membership-theme2.e-anandraj.workers.dev'
+events_worker_url: 'https://cms-events.breakthrough-science-society.workers.dev'
+membership_worker_url: 'https://cms-membership.breakthrough-science-society.workers.dev'
 body_font: Inter
 heading_font: Inter
 color_primary: '#1a3a4a'
