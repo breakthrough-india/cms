@@ -3,7 +3,10 @@
   <nav class="site-nav">
     <a class="site-title" href="{{ site.Home.RelPermalink }}">
       <img src="{{ "logo.png" | relURL }}" alt="{{ site.Title }} logo" class="site-logo">
-      {{ site.Title }}
+      <span class="site-title-text" aria-label="{{ site.Title }}">
+        <span>Breakthrough</span>
+        <span>Science Society</span>
+      </span>
     </a>
     <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
       <span></span><span></span><span></span>
