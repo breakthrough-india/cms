@@ -1,0 +1,19 @@
+Conversion Report
+=================
+Total items: 1
+Content types: post=1
+Successful: 1
+Skipped: 0
+Failed: 0
+
+Passed:
+- 6416-2
+
+Skipped:
+- None
+
+Failed:
+- None
+
+Warnings:
+- None
