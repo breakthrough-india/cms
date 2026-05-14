@@ -1,6 +1,6 @@
 baseURL = '/'
 languageCode = 'en'
-title = 'My New Hugo Project'
+title = 'Breakthrough Science Society'
 cleanDestinationDir = true
 
 [[menus.main]]
