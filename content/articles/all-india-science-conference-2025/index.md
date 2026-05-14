@@ -1,14 +1,18 @@
 ---
-title: "All India Science Conference 2025 – A Brief Report"
-date: "2025-02-23T01:35:58+05:30"
-lastmod: "2025-04-27T21:24:54+05:30"
+title: All India Science Conference 2025 – A Brief Report
+date: 2025-02-23T01:35:00+05:30
+lastmod: 2025-04-27T21:24:00+05:30
 draft: false
-description: "The All India Science Conference organised by Breakthrough Science Society on Feb 8,9 and 10, 2025 at Tagore Theatre, Thiruvananthapuram, KeralaA brief report..."
-author: "Rajeevan PP"
+description: The All India Science Conference organised by Breakthrough Science Society on Feb 8,9 and 10, 2025 at Tagore Theatre, Thiruvananthapuram, Kerala
+author: Rajeevan PP
 tags: []
-toc: true
+image: https://pub-d125678e734647aeb774df3e25dd6abc.r2.dev/2026/05/Prof.-Balaram-Inaugural-speech.jpg
+image_caption: ''
+show_in_slider: true
+featureinhomepage: false
+priority: primary
+toc: false
 comments: true
-image: "https://pub-d125678e734647aeb774df3e25dd6abc.r2.dev/2026/05/Prof.-Balaram-Inaugural-speech.jpg"
 ---
 
 The All India Science Conference organised by Breakthrough Science Society on Feb 8,9 and 10, 2025 at Tagore Theatre, Thiruvananthapuram, Kerala
@@ -88,6 +92,4 @@ The most attractive event of the day was a cultural program in the evening. A mu
 
 The final day on Feb 10 was mostly devoted to organisational discussions. The General Secretary’s report was placed by Prof Soumitro Banerjee and a discussion followed. Then Constitution amendments placed and discussed. The final amendments were adopted by the house. The conference came to a close with a discussion on the history of BSS by the veteran member Mr Debasis Roy.
 
-<iframe loading="lazy" title="ALL INDIA SCIENCE CONFERENCE" width="900" height="506" src="https://www.youtube.com/embed/pypQRSfZlCM?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
-
-[Newsletter BSS-1\_compressed](https://breakthroughindia.org/wp-content/uploads/2025/04/Newsletter-BSS-1_compressed.pdf)[Download](https://breakthroughindia.org/wp-content/uploads/2025/04/Newsletter-BSS-1_compressed.pdf)
+[Newsletter BSS-1_compressed](https://breakthroughindia.org/wp-content/uploads/2025/04/Newsletter-BSS-1_compressed.pdf)[Download](https://breakthroughindia.org/wp-content/uploads/2025/04/Newsletter-BSS-1_compressed.pdf)
