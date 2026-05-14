@@ -1,6 +1,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self'; base-uri 'self'; form-action 'self'">
+{{ $s := hugo.Data.settings }}
+{{ $eventsWorkerURL := $s.events_worker_url | default "https://cms-events-theme2.e-anandraj.workers.dev" }}
+{{ $membershipWorkerURL := $s.membership_worker_url | default "https://cms-membership-theme2.e-anandraj.workers.dev" }}
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self' {{ $eventsWorkerURL }} {{ $membershipWorkerURL }}; base-uri 'self'; form-action 'self'; child-src 'none'">
 <title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ site.Title }}</title>
 <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
 
@@ -13,7 +16,6 @@
       crossorigin="anonymous">
 
 {{/* ── Site Settings: fonts + CSS custom properties ── */}}
-{{ $s := hugo.Data.settings }}
 {{ $bodyFont           := default "Inter" $s.body_font }}
 {{ $headingFont        := default "Inter" $s.heading_font }}
 {{ $primary     := default "#1a1a2e" $s.color_primary }}
