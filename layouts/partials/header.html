@@ -11,7 +11,9 @@
     <ul class="nav-links">
       {{ with site.Menus.main }}
         {{ range . }}
-        <li><a href="{{ .URL }}"{{ if $.IsMenuCurrent "main" . }} aria-current="page"{{ end }}>{{ i18n .Identifier | default .Name }}</a></li>
+          {{ if ne .Params.class "nav-membership" }}
+        <li><a href="{{ .URL }}"{{ if $.IsMenuCurrent "main" . }} aria-current="page"{{ end }}{{ with .Params.class }} class="{{ . }}"{{ end }}>{{ i18n .Identifier | default .Name }}</a></li>
+          {{ end }}
         {{ end }}
       {{ end }}
       {{/* ── State Chapters dropdown ─────────────────────────────────────── */}}
@@ -35,6 +37,14 @@
           </li>
         </ul>
       </li>
+      {{ end }}
+      {{/* ── Membership — pinned after State Chapters ────────────────────── */}}
+      {{ with site.Menus.main }}
+        {{ range . }}
+          {{ if eq .Params.class "nav-membership" }}
+        <li><a href="{{ .URL }}"{{ if $.IsMenuCurrent "main" . }} aria-current="page"{{ end }} class="{{ .Params.class }}">{{ i18n .Identifier | default .Name }}</a></li>
+          {{ end }}
+        {{ end }}
       {{ end }}
     </ul>
   </nav>

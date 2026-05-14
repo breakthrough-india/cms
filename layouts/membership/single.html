@@ -1,0 +1,132 @@
+{{ define "main" }}
+{{ $s := hugo.Data.settings }}
+{{ $workerUrl := $s.membership_worker_url | default "https://cms-membership-theme2.e-anandraj.workers.dev" }}
+
+<div class="content-wrap">
+  <article class="post">
+    <div class="post-layout">
+      <div class="post-layout__main">
+
+        <header class="post-header">
+          <h1 class="post-title">{{ .Title }}</h1>
+          {{ with .Description }}<p class="post-description">{{ . }}</p>{{ end }}
+        </header>
+
+        <div class="post-content">
+          {{ .Content }}
+        </div>
+
+        <section class="membership-form-wrap">
+          <form id="membership-form" novalidate>
+            {{/* Honeypot — silently dropped by the worker if filled */}}
+            <input type="text" name="website" style="display:none" tabindex="-1" autocomplete="off">
+
+            <div class="form-field">
+              <label for="m-name">Full Name <span aria-hidden="true">*</span></label>
+              <input type="text" id="m-name" required autocomplete="name" placeholder="Your full name">
+            </div>
+
+            <div class="form-field">
+              <label for="m-email">Email <span aria-hidden="true">*</span></label>
+              <input type="email" id="m-email" required autocomplete="email" placeholder="you@example.com">
+            </div>
+
+            <div class="form-field">
+              <label for="m-pincode">Pincode <span aria-hidden="true">*</span></label>
+              <input type="text" id="m-pincode" required inputmode="numeric" maxlength="6"
+                     placeholder="6-digit PIN (used to verify your state)">
+            </div>
+
+            <div class="form-field">
+              <label for="m-city">City <span class="form-optional">(resolved from pincode — override if needed)</span></label>
+              <input type="text" id="m-city" autocomplete="address-level2" placeholder="Your city">
+            </div>
+
+            <div class="form-field">
+              <label for="m-occupation">Occupation <span class="form-optional">(optional)</span></label>
+              <input type="text" id="m-occupation" placeholder="e.g. Software Engineer, Teacher">
+            </div>
+
+            <div class="form-field">
+              <label for="m-phone">Phone <span class="form-optional">(optional)</span></label>
+              <input type="tel" id="m-phone" autocomplete="tel" placeholder="+91 98765 43210">
+            </div>
+
+            <div class="form-error" id="m-error" role="alert" aria-live="polite" hidden></div>
+            <div class="form-success" id="m-success" hidden>
+              <p>&#10003; Your application has been received. We will review it and send you a confirmation email shortly.</p>
+            </div>
+
+            <button type="submit" class="btn-register" id="m-submit">Submit Application →</button>
+          </form>
+
+          <script>
+          (function() {
+            var form      = document.getElementById('membership-form');
+            var errBox    = document.getElementById('m-error');
+            var okBox     = document.getElementById('m-success');
+            var btn       = document.getElementById('m-submit');
+            var workerUrl = {{ $workerUrl | jsonify }};
+
+            form.addEventListener('submit', async function(e) {
+              e.preventDefault();
+              errBox.hidden = true;
+              okBox.hidden  = true;
+              btn.disabled  = true;
+              btn.textContent = 'Submitting\u2026';
+
+              var pincode = document.getElementById('m-pincode').value.trim();
+              if (!/^[1-9][0-9]{5}$/.test(pincode)) {
+                showErr('Please enter a valid 6-digit pincode.');
+                reset(); return;
+              }
+
+              var body = {
+                name:       document.getElementById('m-name').value.trim(),
+                email:      document.getElementById('m-email').value.trim(),
+                pincode:    pincode,
+                city:       document.getElementById('m-city').value.trim(),
+                occupation: document.getElementById('m-occupation').value.trim(),
+                phone:      document.getElementById('m-phone').value.trim(),
+                website:    form.querySelector('[name="website"]').value,
+              };
+
+              try {
+                var res  = await fetch(workerUrl + '/subscribe', {
+                  method:  'POST',
+                  headers: { 'Content-Type': 'application/json' },
+                  body:    JSON.stringify(body),
+                });
+                var data = await res.json().catch(function() { return {}; });
+                if (res.status === 409) {
+                  showErr('This email address is already registered.');
+                } else if (!res.ok) {
+                  showErr(data.error || 'Something went wrong. Please try again.');
+                } else {
+                  form.style.display = 'none';
+                  okBox.hidden = false;
+                  return;
+                }
+              } catch {
+                showErr('Network error. Please check your connection and try again.');
+              }
+              reset();
+            });
+
+            function showErr(msg) {
+              errBox.textContent = msg;
+              errBox.hidden = false;
+            }
+            function reset() {
+              btn.disabled    = false;
+              btn.textContent = 'Submit Application \u2192';
+            }
+          })();
+          </script>
+        </section>
+
+      </div>
+    </div>
+  </article>
+</div>
+{{ end }}

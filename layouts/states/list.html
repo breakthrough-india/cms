@@ -30,6 +30,9 @@
   <p class="no-posts">No content for this state chapter yet.</p>
 {{ else }}
 
+<div class="state-chapter-cols">
+<div class="state-chapter-main">
+
   {{/* ════════════════════════════════════════════════════════════════════════
        ARTICLES — priority layout: 1 hero + secondary grid + tertiary list
        ════════════════════════════════════════════════════════════════════════ */}}
@@ -193,37 +196,57 @@
   </section>
   {{ end }}
 
-  {{/* ════════════════════════════════════════════════════════════════════════
-       EVENTS
-       ════════════════════════════════════════════════════════════════════════ */}}
+</div>{{/* end state-chapter-main */}}
+
+<aside class="state-events-sidebar">
+  <div class="state-events-sidebar-header">
+    <h2 class="section-label">Events</h2>
+    <a class="section-viewall" href="{{ "/events/" | relURL }}">All →</a>
+  </div>
   {{ if $events }}
-  <section class="state-chapter-section">
-    <div class="state-chapter-section-header">
-      <h2>Events</h2>
-    </div>
-    <div class="state-chapter-grid">
-      {{ range $events }}
-      {{ $p := . }}
-      <article class="post-card">
-        {{ with .Params.image }}
-          {{ partial "post-image.html" (dict "page" $p "src" . "width" "600" "alt" $p.Title "class" "post-card-image-link" "href" $p.RelPermalink "loading" "lazy") }}
-        {{ end }}
-        <div class="post-card-body">
-          <div class="state-chapter-type-badge state-chapter-type-badge--event">Event</div>
-          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-          {{ with .Params.event_date }}
-          <div class="event-meta-inline">
-            <time datetime="{{ dateFormat "2006-01-02" . }}">{{ dateFormat "Monday, January 2, 2006" . }}</time>
-            {{ with $p.Params.event_location }} · <span>{{ . }}</span>{{ end }}
-          </div>
-          {{ end }}
-          {{ with .Description }}<p class="post-card-desc">{{ . }}</p>{{ end }}
-        </div>
-      </article>
-      {{ end }}
-    </div>
-  </section>
+  {{ $now2 := now }}
+  {{ $evUp   := slice }}
+  {{ $evPast := slice }}
+  {{ range $events }}
+    {{ $d := .Date }}{{ with .Params.event_date }}{{ $d = (time .) }}{{ end }}
+    {{ if $d.After $now2 }}{{ $evUp = $evUp | append . }}
+    {{ else }}{{ $evPast = $evPast | append . }}{{ end }}
   {{ end }}
+  {{ range $evUp }}
+  {{ $d := .Date }}{{ with .Params.event_date }}{{ $d = (time .) }}{{ end }}
+  <div class="state-events-sidebar-item">
+    <div class="state-events-sidebar-date">
+      <span class="day">{{ $d.Format "2" }}</span>
+      <span class="month">{{ $d.Format "Jan" }}</span>
+    </div>
+    <div class="state-events-sidebar-body">
+      <h4><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
+      {{ with .Params.event_location }}<p class="location">{{ . }}</p>{{ end }}
+    </div>
+  </div>
+  {{ end }}
+  {{ if $evPast }}
+  <p class="state-events-sidebar-past-heading">Past</p>
+  {{ range first 3 $evPast }}
+  {{ $d := .Date }}{{ with .Params.event_date }}{{ $d = (time .) }}{{ end }}
+  <div class="state-events-sidebar-item state-events-sidebar-item--past">
+    <div class="state-events-sidebar-date">
+      <span class="day">{{ $d.Format "2" }}</span>
+      <span class="month">{{ $d.Format "Jan" }}</span>
+    </div>
+    <div class="state-events-sidebar-body">
+      <h4><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
+      {{ with .Params.event_location }}<p class="location">{{ . }}</p>{{ end }}
+    </div>
+  </div>
+  {{ end }}
+  {{ end }}
+  {{ else }}
+  <p class="state-events-empty">No events yet for this chapter.</p>
+  {{ end }}
+</aside>
+
+</div>{{/* end state-chapter-cols */}}
 
 {{ end }}
 </div>

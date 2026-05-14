@@ -14,6 +14,18 @@ cleanDestinationDir = true
   weight = 30
 
 [[menus.main]]
+  name   = "Events"
+  url    = "/events/"
+  weight = 40
+
+[[menus.main]]
+  name   = "Membership"
+  url    = "/membership/"
+  weight = 45
+  [menus.main.params]
+    class = "nav-membership"
+
+[[menus.main]]
   name   = "About"
   url    = "/about/"
   weight = 50

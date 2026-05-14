@@ -15,8 +15,8 @@
 
   {{/* ── Hero Image ─────────────────────────────────────────────────────── */}}
   {{ with .Params.image }}
-  <figure class="post-hero">
-    {{ partial "post-image.html" (dict "page" $ "src" . "width" "1200" "alt" $.Title "loading" "eager") }}
+  <figure class="post-hero post-hero--event">
+    {{ partial "post-image.html" (dict "page" $ "src" . "width" "800" "alt" $.Title "loading" "eager") }}
   </figure>
   {{ end }}
 
