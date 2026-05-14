@@ -43,6 +43,11 @@
             </div>
 
             <div class="form-field">
+              <label for="m-state">State <span aria-hidden="true">*</span></label>
+              <input type="text" id="m-state" required autocomplete="address-level1" placeholder="State (auto-filled from pincode — override if needed)">
+            </div>
+
+            <div class="form-field">
               <label for="m-occupation">Occupation <span class="form-optional">(optional)</span></label>
               <input type="text" id="m-occupation" placeholder="e.g. Software Engineer, Teacher">
             </div>
@@ -67,6 +72,44 @@
             var okBox     = document.getElementById('m-success');
             var btn       = document.getElementById('m-submit');
             var workerUrl = {{ $workerUrl | jsonify }};
+            var pincodeInput = document.getElementById('m-pincode');
+            var cityInput = document.getElementById('m-city');
+            var stateInput = document.getElementById('m-state');
+            var lastLookup = null;
+
+            // Client-side pincode lookup
+            async function lookupPincode(pincode) {
+              try {
+                var res = await fetch('https://api.postalpincode.in/pincode/' + encodeURIComponent(pincode), {
+                  signal: AbortSignal.timeout(5000),
+                });
+                if (!res.ok) return null;
+                var data = await res.json();
+                if (data[0] && data[0].Status === 'Success' && data[0].PostOffice && data[0].PostOffice.length) {
+                  var po = data[0].PostOffice[0];
+                  return { city: po.District || po.Name || '', state: po.State || '' };
+                }
+              } catch (e) {
+                // API unreachable or timed out
+              }
+              return null;
+            }
+
+            // Auto-fill city and state when pincode is entered
+            pincodeInput.addEventListener('blur', async function() {
+              var pincode = pincodeInput.value.trim();
+              if (!/^[1-9][0-9]{5}$/.test(pincode)) {
+                stateInput.value = '';
+                return;
+              }
+              if (pincode === lastLookup) return; // Avoid duplicate lookups
+              lastLookup = pincode;
+              var location = await lookupPincode(pincode);
+              if (location) {
+                if (!cityInput.value) cityInput.value = location.city;
+                stateInput.value = location.state;
+              }
+            });
 
             form.addEventListener('submit', async function(e) {
               e.preventDefault();
@@ -86,6 +129,7 @@
                 email:      document.getElementById('m-email').value.trim(),
                 pincode:    pincode,
                 city:       document.getElementById('m-city').value.trim(),
+                state:      document.getElementById('m-state').value.trim(),
                 occupation: document.getElementById('m-occupation').value.trim(),
                 phone:      document.getElementById('m-phone').value.trim(),
                 website:    form.querySelector('[name="website"]').value,
