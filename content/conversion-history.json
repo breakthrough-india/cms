@@ -102,5 +102,21 @@
     "hugoSection": "news",
     "outputPath": "C:\\Workspace\\bss-git\\cms\\content\\news\\programmes-organised-by-bss-muzaffarpur-chapter\\index.md",
     "convertedAt": "2026-05-14T19:36:18.790Z"
+  },
+  {
+    "id": 6103,
+    "type": "post",
+    "slug": "all-india-science-conference-organised-by-bss",
+    "hugoSection": "articles",
+    "outputPath": "C:\\Workspace\\bss-git\\cms\\content\\articles\\all-india-science-conference-organised-by-bss\\index.md",
+    "convertedAt": "2026-05-14T19:47:33.213Z"
+  },
+  {
+    "id": 6128,
+    "type": "post",
+    "slug": "all-india-science-conference-2025",
+    "hugoSection": "articles",
+    "outputPath": "C:\\Workspace\\bss-git\\cms\\content\\articles\\all-india-science-conference-2025\\index.md",
+    "convertedAt": "2026-05-14T19:49:22.024Z"
   }
 ]
