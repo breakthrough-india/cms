@@ -11,7 +11,7 @@ image_caption: ''
 show_in_slider: true
 featureinhomepage: false
 priority: primary
-toc: true
+toc: false
 comments: true
 ---
 
