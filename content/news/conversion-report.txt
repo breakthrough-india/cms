@@ -1,13 +1,24 @@
 Conversion Report
 =================
-Total items: 1
-Content types: post=1
-Successful: 1
+Total items: 12
+Content types: post=12
+Successful: 12
 Skipped: 0
 Failed: 0
 
 Passed:
-- 6416-2
+- 3rd-science-conference-of-kolkata-district-organised-by-bss
+- discussion-on-why-we-need-a-new-science-movement-organised-by-bss-tripura-chapter
+- science-camp-at-the-regional-science-centre-coimbatore-organised-by-bss-tn-chapter
+- science-camps-organised-by-bss-jharkhand-chapter
+- mumbai-science-conference-organised-by-bss
+- bss-karnataka-programmes
+- science-camp-in-andhra-pradesh
+- science-discussion-and-experiment-demonstration-program-in-mp
+- prof-narlikar-memorial-meeting-in-ahmedabad
+- bss-delhi-chapter-programmes
+- science-learning-centre-in-chhattisgarh
+- programmes-organised-by-bss-muzaffarpur-chapter
 
 Skipped:
 - None
