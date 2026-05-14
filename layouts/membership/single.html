@@ -17,7 +17,7 @@
         </div>
 
         <section class="membership-form-wrap">
-          <form id="membership-form" novalidate>
+          <form id="membership-form" novalidate data-worker-url="{{ $workerUrl }}">
             {{/* Honeypot — silently dropped by the worker if filled */}}
             <input type="text" name="website" style="display:none" tabindex="-1" autocomplete="off">
 
@@ -66,9 +66,6 @@
           </form>
 
           {{ $script := resources.Get "js/membership-form.js" }}
-          <script>
-            window.membershipFormConfig = { workerUrl: {{ $workerUrl | jsonify }} };
-          </script>
           <script src="{{ $script.RelPermalink }}"></script>
         </section>
 

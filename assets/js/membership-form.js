@@ -4,7 +4,7 @@
   var errBox    = document.getElementById('m-error');
   var okBox     = document.getElementById('m-success');
   var btn       = document.getElementById('m-submit');
-  var workerUrl = window.membershipFormConfig?.workerUrl || '';
+  var workerUrl = form.dataset.workerUrl || '';
   var pincodeInput = document.getElementById('m-pincode');
   var cityInput = document.getElementById('m-city');
   var stateInput = document.getElementById('m-state');
@@ -16,11 +16,11 @@
     stateInput.style.borderColor = color;
   }
 
-  // Client-side pincode lookup
+  // Client-side pincode lookup via worker
   async function lookupPincode(pincode) {
     setStatus('Fetching location...', '#fbbf24');
     try {
-      var res = await fetch('https://api.postalpincode.in/pincode/' + encodeURIComponent(pincode), {
+      var res = await fetch(workerUrl + '/lookup-pincode?pincode=' + encodeURIComponent(pincode), {
         signal: AbortSignal.timeout(5000),
       });
       if (!res.ok) {
@@ -28,11 +28,9 @@
         return null;
       }
       var data = await res.json();
-      if (data[0] && data[0].Status === 'Success' && data[0].PostOffice && data[0].PostOffice.length) {
-        var po = data[0].PostOffice[0];
-        var result = { city: po.District || po.Name || '', state: po.State || '' };
-        setStatus(result.state, '#10b981');
-        return result;
+      if (data.city && data.state) {
+        setStatus(data.state, '#10b981');
+        return data;
       }
     } catch (e) {
       setStatus('Network error', '#ef4444');
