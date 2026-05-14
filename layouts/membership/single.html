@@ -80,36 +80,70 @@
             // Client-side pincode lookup
             async function lookupPincode(pincode) {
               try {
+                console.log('[Pincode Lookup] Fetching for:', pincode);
                 var res = await fetch('https://api.postalpincode.in/pincode/' + encodeURIComponent(pincode), {
                   signal: AbortSignal.timeout(5000),
                 });
+                console.log('[Pincode Lookup] Response status:', res.status);
                 if (!res.ok) return null;
                 var data = await res.json();
+                console.log('[Pincode Lookup] Response data:', data);
                 if (data[0] && data[0].Status === 'Success' && data[0].PostOffice && data[0].PostOffice.length) {
                   var po = data[0].PostOffice[0];
-                  return { city: po.District || po.Name || '', state: po.State || '' };
+                  var result = { city: po.District || po.Name || '', state: po.State || '' };
+                  console.log('[Pincode Lookup] Result:', result);
+                  return result;
                 }
               } catch (e) {
-                // API unreachable or timed out
+                console.error('[Pincode Lookup] Error:', e);
               }
               return null;
             }
 
             // Auto-fill city and state when pincode is entered
-            pincodeInput.addEventListener('blur', async function() {
-              var pincode = pincodeInput.value.trim();
-              if (!/^[1-9][0-9]{5}$/.test(pincode)) {
-                stateInput.value = '';
-                return;
-              }
-              if (pincode === lastLookup) return; // Avoid duplicate lookups
-              lastLookup = pincode;
-              var location = await lookupPincode(pincode);
-              if (location) {
-                if (!cityInput.value) cityInput.value = location.city;
-                stateInput.value = location.state;
-              }
-            });
+            if (!pincodeInput) {
+              console.error('[Form] Pincode input not found');
+            } else {
+              console.log('[Form] Pincode input found, attaching listeners');
+              pincodeInput.addEventListener('change', async function() {
+                console.log('[Pincode Event] Change event fired');
+                var pincode = pincodeInput.value.trim();
+                console.log('[Pincode Event] Pincode value:', pincode);
+                if (!/^[1-9][0-9]{5}$/.test(pincode)) {
+                  console.log('[Pincode Event] Invalid pincode format');
+                  stateInput.value = '';
+                  return;
+                }
+                if (pincode === lastLookup) {
+                  console.log('[Pincode Event] Duplicate lookup, skipping');
+                  return;
+                }
+                lastLookup = pincode;
+                var location = await lookupPincode(pincode);
+                if (location) {
+                  console.log('[Pincode Event] Filling fields with:', location);
+                  if (!cityInput.value) cityInput.value = location.city;
+                  stateInput.value = location.state;
+                } else {
+                  console.log('[Pincode Event] No location found');
+                }
+              });
+              pincodeInput.addEventListener('blur', async function() {
+                console.log('[Pincode Event] Blur event fired');
+                var pincode = pincodeInput.value.trim();
+                if (!/^[1-9][0-9]{5}$/.test(pincode)) {
+                  stateInput.value = '';
+                  return;
+                }
+                if (pincode === lastLookup) return;
+                lastLookup = pincode;
+                var location = await lookupPincode(pincode);
+                if (location) {
+                  if (!cityInput.value) cityInput.value = location.city;
+                  stateInput.value = location.state;
+                }
+              });
+            }
 
             form.addEventListener('submit', async function(e) {
               e.preventDefault();
