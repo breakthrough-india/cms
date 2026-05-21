@@ -48,6 +48,15 @@ cleanDestinationDir = true
   [[module.mounts]]
     source = "state-repos/state-karnataka/content/events"
     target = "content/events"
+  [[module.mounts]]
+    source = "state-repos/state-kerala/content/articles"
+    target = "content/articles"
+  [[module.mounts]]
+    source = "state-repos/state-kerala/content/news"
+    target = "content/news"
+  [[module.mounts]]
+    source = "state-repos/state-kerala/content/events"
+    target = "content/events"
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]

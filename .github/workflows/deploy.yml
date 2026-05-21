@@ -33,6 +33,13 @@ jobs:
           [ -d /tmp/karnataka/content/events ]   && cp -r /tmp/karnataka/content/events/.   content/events/   || true
           [ -d /tmp/karnataka/content/news ]     && cp -r /tmp/karnataka/content/news/.     content/news/     || true
 
+      - name: Fetch state content — Kerala
+        run: |
+          git clone --depth=1 https://github.com/breakthrough-india/cms-kerala.git /tmp/kerala
+          [ -d /tmp/kerala/content/articles ] && cp -r /tmp/kerala/content/articles/. content/articles/ || true
+          [ -d /tmp/kerala/content/events ]   && cp -r /tmp/kerala/content/events/.   content/events/   || true
+          [ -d /tmp/kerala/content/news ]     && cp -r /tmp/kerala/content/news/.     content/news/     || true
+
       # Add more states here following the same pattern, e.g.:
       # - name: Fetch state content — Tamil Nadu
       #   run: |
