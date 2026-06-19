@@ -1,5 +1,6 @@
 ---
 title: All India Science Conference 2025 – A Brief Report
+slug: all-india-science-conference-2025
 date: 2025-02-23T01:35:00+05:30
 lastmod: 2025-04-27T21:24:00+05:30
 draft: false
