@@ -15,15 +15,23 @@ collections:
     label: Articles
     folder: content/articles
     create: true
-    path: "{{slug}}/index"
+    slug: "{{fields.slug}}"
+    path: "{{fields.slug}}/index"
     media_folder: images
     public_folder: images
-    preview_path: articles/{{slug}}/
+    preview_path: articles/{{fields.slug}}/
     fields:
       - &f_title
         label: Title
         name: title
         widget: string
+
+      - &f_slug
+        label: URL Slug
+        name: slug
+        widget: string
+        hint: "Use lowercase English letters, numbers, and hyphens only, up to 80 characters."
+        pattern: ['^(?=.{1,80}$)[a-z0-9]+(?:-[a-z0-9]+)*$', "Use 1-80 lowercase English letters, numbers, and hyphens; do not start or end with a hyphen."]
 
       - &f_date
         label: Publish Date
@@ -133,12 +141,14 @@ collections:
     label: News
     folder: content/news
     create: true
-    path: "{{slug}}/index"
+    slug: "{{fields.slug}}"
+    path: "{{fields.slug}}/index"
     media_folder: images
     public_folder: images
-    preview_path: news/{{slug}}/
+    preview_path: news/{{fields.slug}}/
     fields:
       - *f_title
+      - *f_slug
       - *f_date
       - *f_lastmod
       - *f_draft
@@ -308,12 +318,14 @@ collections:
     label: Events
     folder: content/events
     create: true
-    path: "{{slug}}/index"
+    slug: "{{fields.slug}}"
+    path: "{{fields.slug}}/index"
     media_folder: images
     public_folder: images
-    preview_path: events/{{slug}}/
+    preview_path: events/{{fields.slug}}/
     fields:
       - *f_title
+      - *f_slug
       - *f_date
       - *f_lastmod
       - *f_draft
