@@ -3,14 +3,20 @@ title: Opposition to New Ideas in Science
 slug: opposition-to-new-ideas-in-science
 date: 2000-05-23T00:00:00+05:30
 lastmod: 2001-01-01T00:00:00+05:30
-draft: true
+draft: false
 description: Transcript of the speech delivered by Prof. Jayant Vishnu Narlikar at Achyutha Menon Hall, Ernakulam, in the civic reception given by the Breakthrough Science Society, Kerala State Chapter.
 author: Jayant Vishnu Narlikar
+tags:
+  - Cosmology
+  - History of Science
+  - Big Bang
+  - Steady State Theory
+  - Scientific Objectivity
 image: https://pub-d125678e734647aeb774df3e25dd6abc.r2.dev/2026/06/Jayanth-Narlikar.jpg
-tags: ["Cosmology", "History of Science", "Big Bang", "Steady State Theory", "Scientific Objectivity"]
+image_caption: ''
+show_in_slider: true
 toc: true
 comments: true
-show_in_slider: true
 ---
 
 ## OPPOSITION TO NEW IDEAS IN SCIENCE
