@@ -15,11 +15,9 @@ tags:
 image: https://pub-d125678e734647aeb774df3e25dd6abc.r2.dev/2026/06/Jayanth-Narlikar.jpg
 image_caption: ''
 show_in_slider: true
-toc: true
-comments: true
+toc: false
+comments: false
 ---
-
-## OPPOSITION TO NEW IDEAS IN SCIENCE
 
 ### Jayant Vishnu Narlikar
 
