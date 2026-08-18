@@ -3,6 +3,7 @@ backend:
   repo: breakthrough-india/cms
   branch: main
   base_url: https://cms-auth.breakthrough-science-society.workers.dev
+  auth_endpoint: main/auth
 
 # Store media in the page bundle alongside content
 media_folder: content/articles
