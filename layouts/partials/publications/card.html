@@ -1,0 +1,22 @@
+<article class="publication-card"
+  data-publication-card
+  data-title="{{ .Title | lower }}"
+  data-summary="{{ .Params.summary | default "" | lower }}"
+  data-type="{{ .Params.publication_type }}"
+  data-series="{{ .Params.series | default "" }}"
+  data-languages="{{ delimit (.Params.languages | default (slice)) "," | lower }}"
+  data-topics="{{ delimit (.Params.topics | default (slice)) "," | lower }}"
+  data-year="{{ .Date.Year }}">
+  <a href="{{ .RelPermalink }}" class="publication-card__cover" aria-label="View {{ .Title }}">
+    {{ partial "publications/cover.html" . }}
+  </a>
+  <div class="publication-card__body">
+    <p class="publication-card__eyebrow">{{ replace .Params.publication_type "_" " " | title }}</p>
+    <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+    <p>{{ .Params.summary }}</p>
+    <div class="publication-card__footer">
+      <span>{{ .Date.Format "2006" }}</span>
+      <a href="{{ .RelPermalink }}">View details<span class="sr-only"> for {{ .Title }}</span></a>
+    </div>
+  </div>
+</article>

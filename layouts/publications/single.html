@@ -1,0 +1,16 @@
+{{ define "main" }}
+<div class="content-wrap content-wrap--wide publication-single">
+  <nav class="publication-breadcrumb" aria-label="Breadcrumb"><a href="{{ "publications/" | relURL }}">Publications</a><span aria-hidden="true">/</span><span aria-current="page">{{ .Title }}</span></nav>
+  <article class="publication-detail">
+    <div>{{ partial "publications/cover.html" . }}</div>
+    <div class="publication-detail__body">
+      <p class="publication-card__eyebrow">{{ replace .Params.publication_type "_" " " | title }}</p>
+      <h1>{{ .Title }}</h1>
+      <p class="publication-detail__summary">{{ .Params.summary }}</p>
+      {{ partial "publications/metadata.html" . }}
+      <div class="publication-detail__actions">{{ partial "publications/document-action.html" . }}{{ if eq .Params.publication_type "book" }}{{ partial "publications/book-action.html" . }}{{ end }}</div>
+      {{ with .Params.topics }}<ul class="publication-topics" aria-label="Topics">{{ range . }}<li>{{ . }}</li>{{ end }}</ul>{{ end }}
+    </div>
+  </article>
+</div>
+{{ end }}

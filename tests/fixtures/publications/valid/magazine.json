@@ -1,0 +1,22 @@
+{
+  "publication_id": "breakthrough-journal-2026-07",
+  "title": "Breakthrough Journal – July 2026",
+  "slug": "breakthrough-journal-july-2026",
+  "publication_type": "magazine_issue",
+  "series": "breakthrough-journal",
+  "date": "2026-07-01T00:00:00+05:30",
+  "lastmod": "2026-10-30T00:00:00+05:30",
+  "draft": false,
+  "catalogue": true,
+  "summary": "Quarterly magazine of the Breakthrough Science Society.",
+  "languages": ["en"],
+  "topics": ["science-movement"],
+  "document": {
+    "asset_id": "4d013c5e0d8642ba88b3e8e20cd7e093",
+    "key": "publications/magazine-issue/2026/4d013c5e0d8642ba88b3e8e20cd7e093-breakthrough-journal-july-2026.pdf",
+    "filename": "breakthrough-journal-july-2026.pdf",
+    "media_type": "application/pdf",
+    "bytes": 12004567,
+    "label": "Read Breakthrough Journal – July 2026 (PDF)"
+  }
+}

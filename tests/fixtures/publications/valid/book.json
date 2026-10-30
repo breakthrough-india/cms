@@ -1,0 +1,15 @@
+{
+  "publication_id": "science-and-society-book",
+  "title": "Science and Society",
+  "slug": "science-and-society",
+  "publication_type": "book",
+  "date": "2025-01-01T00:00:00+05:30",
+  "lastmod": "2026-10-30T00:00:00+05:30",
+  "draft": false,
+  "catalogue": true,
+  "summary": "A book about the relationship between scientific progress and society.",
+  "languages": ["en"],
+  "contributors": [{"name": "BSS Editorial Board", "role": "editor"}],
+  "purchase_url": "https://breakthroughindia.org/contact/",
+  "price_text": "Contact us"
+}

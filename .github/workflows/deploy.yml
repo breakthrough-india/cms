@@ -54,6 +54,16 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
+      - name: Setup Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+
+      - name: Validate publication contract
+        run: |
+          node --test tests/*.test.mjs
+          node scripts/validate-publications.mjs
+
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v6

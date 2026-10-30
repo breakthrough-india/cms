@@ -1,0 +1,8 @@
+{{- $pages := where site.RegularPages "Section" "publications" -}}
+{{- $pages = where $pages "Params.catalogue" "ne" false -}}
+{{- $pages = where $pages "Date" "le" now -}}
+{{- $items := slice -}}
+{{- range $pages.ByDate.Reverse -}}
+  {{- $items = $items | append (dict "publication_id" .Params.publication_id "title" .Title "summary" .Params.summary "publication_type" .Params.publication_type "series" (.Params.series | default "") "date" (.Date.Format "2006-01-02T15:04:05Z07:00") "languages" .Params.languages "topics" (.Params.topics | default (slice)) "url" .RelPermalink) -}}
+{{- end -}}
+{{- dict "version" "1.0.0" "generated_at" (now.Format "2006-01-02T15:04:05Z07:00") "items" $items | jsonify -}}

@@ -1,0 +1,11 @@
+{{- $settings := hugo.Data.settings -}}
+{{- $key := .Get "key" | default $settings.constitution_asset_key -}}
+{{- $label := .Get "label" | default "Read or download the PDF" -}}
+{{- $base := strings.TrimRight "/" ($settings.publication_asset_base_url | default "") -}}
+{{- if and $base $key -}}
+  <a href="{{ printf "%s/%s" $base $key | safeURL }}">{{ $label }}</a>
+{{- else if $settings.constitution_legacy_url -}}
+  <a href="{{ $settings.constitution_legacy_url | safeURL }}">{{ $label }}</a>
+{{- else -}}
+  <span>{{ $label }} (temporarily unavailable)</span>
+{{- end -}}

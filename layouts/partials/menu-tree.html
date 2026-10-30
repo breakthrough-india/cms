@@ -1,0 +1,24 @@
+{{- $entry := .entry -}}
+{{- $page := .page -}}
+{{- $level := .level | default 0 -}}
+{{- $entryPath := strings.TrimSuffix "/" $entry.URL -}}
+{{- $pagePath := strings.TrimSuffix "/" $page.RelPermalink -}}
+{{- $isCurrent := or ($page.IsMenuCurrent "main" $entry) ($page.HasMenuCurrent "main" $entry) (eq $entryPath $pagePath) -}}
+{{- if and $entry.HasChildren (strings.HasPrefix $pagePath (printf "%s/" $entryPath)) }}{{ $isCurrent = true }}{{ end -}}
+{{- if and (eq $entry.Identifier "publications") (eq $page.Section "publications") }}{{ $isCurrent = true }}{{ end -}}
+<li{{ if $entry.HasChildren }} class="nav-dropdown nav-dropdown--level-{{ $level }}"{{ end }}>
+  {{- if $entry.HasChildren -}}
+    {{- $controlID := printf "nav-%s-%d" ($entry.Identifier | default ($entry.Name | urlize)) $level -}}
+    <button class="nav-dropdown-btn{{ if $isCurrent }} is-current{{ end }}" type="button" aria-expanded="false" aria-haspopup="true" aria-controls="{{ $controlID }}">
+      {{ i18n $entry.Identifier | default $entry.Name }}
+      <svg class="nav-dropdown-caret" aria-hidden="true" width="10" height="6" viewBox="0 0 10 6" fill="currentColor"><path d="M0 0l5 6 5-6z"/></svg>
+    </button>
+    <ul class="nav-dropdown-menu" id="{{ $controlID }}">
+      {{- range $entry.Children -}}
+        {{ partial "menu-tree.html" (dict "entry" . "page" $page "level" (add $level 1)) }}
+      {{- end -}}
+    </ul>
+  {{- else -}}
+    <a href="{{ $entry.URL }}"{{ if $isCurrent }} aria-current="page"{{ end }}{{ with $entry.Params.class }} class="{{ . }}"{{ end }}>{{ i18n $entry.Identifier | default $entry.Name }}</a>
+  {{- end -}}
+</li>

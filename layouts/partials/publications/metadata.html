@@ -1,0 +1,13 @@
+{{- $p := .Params -}}
+{{- $seriesLabels := dict "breakthrough-journal" "‘BREAKTHROUGH’ Journal" "prakriti-bengali" "Prakriti (Bengali)" "breakthrough-bulletin-hindi" "Breakthrough Bulletin (Hindi)" -}}
+<dl class="publication-meta">
+  <div><dt>Published</dt><dd><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time></dd></div>
+  {{ with $p.series }}<div><dt>Series</dt><dd>{{ index $seriesLabels . | default . }}</dd></div>{{ end }}
+  {{ with $p.volume }}<div><dt>Volume</dt><dd>{{ . }}</dd></div>{{ end }}
+  {{ with $p.issue }}<div><dt>Issue</dt><dd>{{ . }}</dd></div>{{ end }}
+  {{ with $p.languages }}<div><dt>Language</dt><dd>{{ delimit . ", " }}</dd></div>{{ end }}
+  {{ with $p.contributors }}
+  <div><dt>Contributors</dt><dd>{{ range $index, $credit := . }}{{ if $index }}, {{ end }}{{ $credit.name }} ({{ $credit.role }}){{ end }}</dd></div>
+  {{ end }}
+  {{ with $p.isbn }}<div><dt>ISBN</dt><dd>{{ . }}</dd></div>{{ end }}
+</dl>

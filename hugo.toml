@@ -1,5 +1,5 @@
 baseURL = '/'
-languageCode = 'en'
+locale = 'en'
 title = 'Breakthrough Science Society'
 cleanDestinationDir = true
 
@@ -7,6 +7,55 @@ cleanDestinationDir = true
   name   = "Articles"
   url    = "/articles/"
   weight = 10
+
+[[menus.main]]
+  identifier = "publications"
+  name   = "Publications"
+  url    = "/publications/"
+  weight = 20
+
+[[menus.main]]
+  name   = "All Publications"
+  url    = "/publications/"
+  parent = "publications"
+  weight = 1
+
+[[menus.main]]
+  identifier = "publications-magazines"
+  name   = "Magazines"
+  url    = "/publications/magazines/"
+  parent = "publications"
+  weight = 10
+
+[[menus.main]]
+  name   = "‘BREAKTHROUGH’ Journal"
+  url    = "/publications/magazines/breakthrough-journal/"
+  parent = "publications-magazines"
+  weight = 11
+
+[[menus.main]]
+  name   = "Prakriti (Bengali)"
+  url    = "/publications/magazines/prakriti-bengali/"
+  parent = "publications-magazines"
+  weight = 12
+
+[[menus.main]]
+  name   = "Breakthrough Bulletin (Hindi)"
+  url    = "/publications/magazines/breakthrough-bulletin-hindi/"
+  parent = "publications-magazines"
+  weight = 13
+
+[[menus.main]]
+  name   = "Major Articles"
+  url    = "/publications/major-articles/"
+  parent = "publications"
+  weight = 20
+
+[[menus.main]]
+  name   = "Books"
+  url    = "/publications/books/"
+  parent = "publications"
+  weight = 30
 
 [[menus.main]]
   name   = "News"

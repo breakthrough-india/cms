@@ -1,2 +1,2 @@
 baseURL = 'https://breakthrough-india.github.io/cms/'
-languageCode = 'en'
+locale = 'en'

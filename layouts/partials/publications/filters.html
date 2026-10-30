@@ -1,0 +1,19 @@
+{{- $pages := . -}}
+{{- $scratch := newScratch -}}
+{{- $scratch.Set "languages" (slice) -}}
+{{- $scratch.Set "topics" (slice) -}}
+{{- $scratch.Set "years" (slice) -}}
+{{- range $pages -}}
+  {{- range .Params.languages }}{{ $scratch.Add "languages" (slice .) }}{{ end -}}
+  {{- range .Params.topics }}{{ $scratch.Add "topics" (slice .) }}{{ end -}}
+  {{- $scratch.Add "years" (slice (string .Date.Year)) -}}
+{{- end -}}
+<form class="publication-filters" data-publication-filters role="search">
+  <div class="publication-filters__search"><label for="publication-query">Search publications</label><input id="publication-query" name="query" type="search" placeholder="Title, summary, or topic" autocomplete="off"></div>
+  <div><label for="publication-type">Type</label><select id="publication-type" name="type"><option value="">All types</option><option value="magazine_issue">Magazine issues</option><option value="major_article">Major articles</option><option value="book">Books</option></select></div>
+  <div><label for="publication-series">Series</label><select id="publication-series" name="series"><option value="">All series</option>{{ range (index hugo.Data "publication-series") }}<option value="{{ .value }}">{{ .label }}</option>{{ end }}</select></div>
+  <div><label for="publication-language">Language</label><select id="publication-language" name="language"><option value="">All languages</option>{{ range sort (uniq ($scratch.Get "languages")) }}<option value="{{ . | lower }}">{{ . }}</option>{{ end }}</select></div>
+  <div><label for="publication-topic">Topic</label><select id="publication-topic" name="topic"><option value="">All topics</option>{{ range sort (uniq ($scratch.Get "topics")) }}<option value="{{ . | lower }}">{{ . }}</option>{{ end }}</select></div>
+  <div><label for="publication-year">Year</label><select id="publication-year" name="year"><option value="">All years</option>{{ range sort (uniq ($scratch.Get "years")) "value" "desc" }}<option value="{{ . }}">{{ . }}</option>{{ end }}</select></div>
+  <div class="publication-filters__status"><p data-publication-count aria-live="polite">{{ len $pages }} publication{{ if ne (len $pages) 1 }}s{{ end }}</p><button type="reset" data-publication-reset>Reset filters</button></div>
+</form>

@@ -1,0 +1,9 @@
+- value: breakthrough-journal
+  label: "‘BREAKTHROUGH’ Journal"
+  primary_language: en
+- value: prakriti-bengali
+  label: "Prakriti (Bengali)"
+  primary_language: bn
+- value: breakthrough-bulletin-hindi
+  label: "Breakthrough Bulletin (Hindi)"
+  primary_language: hi

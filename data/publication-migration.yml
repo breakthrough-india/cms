@@ -1,0 +1,1008 @@
+{
+  "version": 1,
+  "generated_at": "2026-10-30T10:39:29.375Z",
+  "sources": [
+    {
+      "url": "https://breakthroughindia.org/breakthrough-journal-old-issues/",
+      "category": "magazine_issue",
+      "series": "breakthrough-journal"
+    },
+    {
+      "url": "https://breakthroughindia.org/major-articles/",
+      "category": "major_article"
+    },
+    {
+      "url": "https://breakthroughindia.org/books/",
+      "category": "book"
+    }
+  ],
+  "items": [
+    {
+      "inventory_id": "legacy-36e7a62d0d96a9871e23e37a43bea304",
+      "source_url": "https://breakthroughindia.org/major-articles/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2019/06/narlikar.pdf",
+      "title": "Opposition to new ideas in science",
+      "category": "major_article",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-f35627c5538d0fc3ab3870fd7f16fd3d",
+      "source_url": "https://breakthroughindia.org/major-articles/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2020/05/astro.pdf",
+      "title": "Astrology Opposes Science and Rationalism",
+      "category": "major_article",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-2cb1c3eff81e23c7b39fe840b36b1a4e",
+      "source_url": "https://breakthroughindia.org/major-articles/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2020/05/astrology.pdf",
+      "title": "Some questions concerning the UGC course in astrology",
+      "category": "major_article",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-aa0afc058b7dcbd884c2521d7355184c",
+      "source_url": "https://breakthroughindia.org/major-articles/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2020/05/bifurcation.pdf",
+      "title": "Scientific Analysis of Qualitative Change",
+      "category": "major_article",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-0aaa79c619868f515b2c51fadd745769",
+      "source_url": "https://breakthroughindia.org/major-articles/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2020/05/Chemistry1.pdf",
+      "title": "Evolution of Chemistry: Part I",
+      "category": "major_article",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-5f7be802acfff3e53e16eaa932001a4e",
+      "source_url": "https://breakthroughindia.org/major-articles/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2020/05/Chemistry2.pdf",
+      "title": "Evolution of Chemistry: Part II",
+      "category": "major_article",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-d31e8fdac494f9e83456cf5805dd29d8",
+      "source_url": "https://breakthroughindia.org/major-articles/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2020/05/Chemistry3.pdf",
+      "title": "Evolution of Chemistry: Part III",
+      "category": "major_article",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-9c233ae618503a37d10e7bcc59783501",
+      "source_url": "https://breakthroughindia.org/major-articles/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2020/05/curie.pdf",
+      "title": "Remembering Madame Curie",
+      "category": "major_article",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-5100a0e6bf784d5ef35f2c9ac45fd9c2",
+      "source_url": "https://breakthroughindia.org/major-articles/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2020/05/dani.pdf",
+      "title": "What science entails, beyond practical science",
+      "category": "major_article",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-7772a4189a53f9601ce02e001f1f7c21",
+      "source_url": "https://breakthroughindia.org/major-articles/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2020/05/darwin1.pdf",
+      "title": "Darwin’s theory of evolution, Part 1: Background",
+      "category": "major_article",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-cb6b6c8c3601328a6d99b00ef7f1ae03",
+      "source_url": "https://breakthroughindia.org/major-articles/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2020/05/darwin2a.pdf",
+      "title": "Darwin’s theory of evolution, Part 2(a): Achievement",
+      "category": "major_article",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-f6b29aac2ca709f9ba1709fbe50294c9",
+      "source_url": "https://breakthroughindia.org/major-articles/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2020/05/darwin2b.pdf",
+      "title": "Darwin’s theory of evolution, Part 2(b): Human evolution",
+      "category": "major_article",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-eff9fa380372d66cc3a127333c8a524d",
+      "source_url": "https://breakthroughindia.org/major-articles/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2020/05/darwin3.pdf",
+      "title": "Darwin’s theory of evolution, Part 3: Consequences for Phi",
+      "category": "major_article",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-1f7c0d9dea31ccf8603223b0d63fb0fb",
+      "source_url": "https://breakthroughindia.org/major-articles/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2020/05/darwin4.pdf",
+      "title": "of evolution, Part 4: Consequences for Sociology",
+      "category": "major_article",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-f8500c747019087e393cb81d86d3d457",
+      "source_url": "https://breakthroughindia.org/major-articles/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2020/05/Einstein-GTR.pdf",
+      "title": "The General Theory of Relativity and the World Around Us",
+      "category": "major_article",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-33ab8afc812cbeeee9e3ff45003eed41",
+      "source_url": "https://breakthroughindia.org/major-articles/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2020/05/Einstein-philo.pdf",
+      "title": "The Philosophical Foundation of Einstein’s Great Scientific Activity",
+      "category": "major_article",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-1e93a5eeee6d01ae6874e6eeefe9d6b9",
+      "source_url": "https://breakthroughindia.org/major-articles/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2020/05/Einstein-STR.pdf",
+      "title": "The Special Theory of Relativity",
+      "category": "major_article",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-a8a0d8e2d9a4c509c1a33f9fea746ac3",
+      "source_url": "https://breakthroughindia.org/major-articles/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2020/05/Einstein.pdf",
+      "title": "Albert Einstein",
+      "category": "major_article",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-5fcbdea0c5c0cdc5e194b8c53512a1b2",
+      "source_url": "https://breakthroughindia.org/major-articles/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2020/05/evolution-theory.pdf",
+      "title": "Darwin and the theory of evolution",
+      "category": "major_article",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-58954f505a99ee3aa424acddedc82175",
+      "source_url": "https://breakthroughindia.org/major-articles/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2020/05/flood.pdf",
+      "title": "Rivers and Floods (With Special Reference to Floods in West Bengal)",
+      "category": "major_article",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-3d6bb42fbf0bc79525c71a36fd039250",
+      "source_url": "https://breakthroughindia.org/major-articles/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2020/05/fractal.pdf",
+      "title": "Nature’s Geometry",
+      "category": "major_article",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-9747ac32ebd5429c1b96b0f98429246f",
+      "source_url": "https://breakthroughindia.org/major-articles/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2020/05/gw.pdf",
+      "title": "Gravitational waves: Einstein’s whispers from the cosmos",
+      "category": "major_article",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-a797b1bbf895832e0e9022bc7daed6d8",
+      "source_url": "https://breakthroughindia.org/major-articles/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2020/05/history1.pdf",
+      "title": "The advent of agriculture",
+      "category": "major_article",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-abb348eb03c697a86661cd77c9ce5364",
+      "source_url": "https://breakthroughindia.org/major-articles/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2020/05/history10.pdf",
+      "title": "The Revolution in Biology",
+      "category": "major_article",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-6801247f2d67dc496ae4bb760e18d693",
+      "source_url": "https://breakthroughindia.org/major-articles/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2020/05/history11.pdf",
+      "title": "Philosophy transcends mechanical materialism and metaphysics",
+      "category": "major_article",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-8616073e4103dd95a6a9f0db6e30d51f",
+      "source_url": "https://breakthroughindia.org/major-articles/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2020/05/history12.pdf",
+      "title": "The rise and fall of positivism",
+      "category": "major_article",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-69e78d56505415c1d5d53d74f6193a51",
+      "source_url": "https://breakthroughindia.org/major-articles/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2020/05/history13.pdf",
+      "title": "The Development of Quantum Mechanics",
+      "category": "major_article",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-0c88fdc54068c6ff3b8f4a9be132217c",
+      "source_url": "https://breakthroughindia.org/major-articles/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2020/05/history14.pdf",
+      "title": "Genetics becomes a science",
+      "category": "major_article",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-7f79958b75b6e00775084fed58bd0e5f",
+      "source_url": "https://breakthroughindia.org/major-articles/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2020/05/history15.pdf",
+      "title": "Rebirth of science in India",
+      "category": "major_article",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-1bec6ea102e033c8a9f579ff539dc232",
+      "source_url": "https://breakthroughindia.org/major-articles/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2020/05/history2.pdf",
+      "title": "The upsurge of Greek intellect",
+      "category": "major_article",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-b11faeca2d9caa60b4d1af5ffbf828fa",
+      "source_url": "https://breakthroughindia.org/major-articles/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2020/05/history3.pdf",
+      "title": "The Dark Age",
+      "category": "major_article",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-4caf70760d4948d26076f4966dfcfe06",
+      "source_url": "https://breakthroughindia.org/major-articles/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2020/05/history4.pdf",
+      "title": "The Renaissance",
+      "category": "major_article",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-8d2bc973542f9201d31638925243d8fd",
+      "source_url": "https://breakthroughindia.org/major-articles/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2020/05/history5.pdf",
+      "title": "Development of the scientific method",
+      "category": "major_article",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-2cfdfde7c35b981e384421fc43c70e30",
+      "source_url": "https://breakthroughindia.org/major-articles/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2020/05/history6.pdf",
+      "title": "The Newtonian Synthesis",
+      "category": "major_article",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-4e710912d37039d624e25cc2aa7b21f5",
+      "source_url": "https://breakthroughindia.org/major-articles/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2020/05/history7.pdf",
+      "title": "The Heydays of Mechanical Materialism",
+      "category": "major_article",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-0f428c26fb6b55bdbb5e0db5aae8902f",
+      "source_url": "https://breakthroughindia.org/major-articles/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2020/05/history8.pdf",
+      "title": "The Development of Science in Ancient India",
+      "category": "major_article",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-51dadec5a6ac1e8d2df3d9bd0630e869",
+      "source_url": "https://breakthroughindia.org/major-articles/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2020/05/history9.pdf",
+      "title": "The Development of the Ideas of Causality and Determinism",
+      "category": "major_article",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-5cf881ba42cb319b11507dd4aabbeb57",
+      "source_url": "https://breakthroughindia.org/major-articles/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2020/05/malthus.pdf",
+      "title": "Malthus’ Population Theory: An Irony in the Annals of Science",
+      "category": "major_article",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-c3a9d6a050209292a7118d93906ea2f8",
+      "source_url": "https://breakthroughindia.org/major-articles/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2020/05/materialism1.pdf",
+      "title": "Part-1",
+      "category": "major_article",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-5f877bcc011b0a6a059480cc622dec30",
+      "source_url": "https://breakthroughindia.org/major-articles/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2020/05/materialism2.pdf",
+      "title": "Part-2",
+      "category": "major_article",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-17a2afc21d94830a8182274450247480",
+      "source_url": "https://breakthroughindia.org/major-articles/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2020/05/math-equivalence.pdf",
+      "title": "Physical Theory and Mathematical Formalism",
+      "category": "major_article",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-2d20e8b11444be8bfacaf52dcdcaa7f5",
+      "source_url": "https://breakthroughindia.org/major-articles/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2020/05/molecules-of-life.pdf",
+      "title": "The molecules of life",
+      "category": "major_article",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-2209fd674834eef024518be5ad6d1cc3",
+      "source_url": "https://breakthroughindia.org/major-articles/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2020/05/NEP2016.pdf",
+      "title": "The National Education Policy 2016: A Critical Appraisal",
+      "category": "major_article",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-e96a4cfe1cb77b7d3578345983be4134",
+      "source_url": "https://breakthroughindia.org/major-articles/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2020/05/nuclear-DM.pdf",
+      "title": "Nuclear Power: The Cons in the Debate",
+      "category": "major_article",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-80f1ea8b33353bca98ce47707dc76a44",
+      "source_url": "https://breakthroughindia.org/major-articles/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2020/05/nuclear1.pdf",
+      "title": "Nuclear Energy — Facts and Fiction (Part 1)",
+      "category": "major_article",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-319509784780ea5b075eb57d352bbede",
+      "source_url": "https://breakthroughindia.org/major-articles/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2020/05/nuclear2.pdf",
+      "title": "Nuclear Energy — Facts and Fiction (Part 2)",
+      "category": "major_article",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-4e4464ff9f46edf922bc3cc73e12e803",
+      "source_url": "https://breakthroughindia.org/major-articles/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2020/05/origin-of-life.pdf",
+      "title": "The origin of life",
+      "category": "major_article",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-0b8aa86aa9740d0089666b0a80c5d54d",
+      "source_url": "https://breakthroughindia.org/major-articles/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2020/05/pasteur.pdf",
+      "title": "Louis Pasteur—the Crusader for Truth",
+      "category": "major_article",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-ffe5dca9b527d9131f0e7fe7eff8439a",
+      "source_url": "https://breakthroughindia.org/major-articles/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2020/05/Patents.pdf",
+      "title": "The New Patent Regime: A Blow against Science and Public Health",
+      "category": "major_article",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-51fef283adf0c0f775ef13fc82e3e0f5",
+      "source_url": "https://breakthroughindia.org/major-articles/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2020/05/pcray.pdf",
+      "title": "Acharya Prafulla Chandra Ray: An epitome of scientific attitude and human values",
+      "category": "major_article",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-acb049346178c536dd04d3aadbd9a7b5",
+      "source_url": "https://breakthroughindia.org/major-articles/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2020/05/River-linking.pdf",
+      "title": "A Scientific Analysis of the Proposed Interlinking of Rivers in India",
+      "category": "major_article",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-db35b9922f36c942d19dcbec3912b99a",
+      "source_url": "https://breakthroughindia.org/major-articles/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2020/05/saraswati.pdf",
+      "title": "Rigvedic Saraswati: Myth and Reality",
+      "category": "major_article",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-67c0c0de7f5353ed46505e233c04645f",
+      "source_url": "https://breakthroughindia.org/major-articles/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2020/05/solarsys.pdf",
+      "title": "Origin of the solar system",
+      "category": "major_article",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-00342216a6650ff7eab1dcd27b6d7289",
+      "source_url": "https://breakthroughindia.org/major-articles/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2020/05/STPolicyPart1.pdf",
+      "title": "The Science & Technology Policy 2003: A critical evaluation, Part 1",
+      "category": "major_article",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-6629a2bda5f0db8603bc2b49d5105e06",
+      "source_url": "https://breakthroughindia.org/major-articles/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2020/05/STPolicyPart2.pdf",
+      "title": "The Science & Technology Policy 2003: A critical evaluation, Part 2",
+      "category": "major_article",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-c9a6ade77034be4f262d3676371b0aed",
+      "source_url": "https://breakthroughindia.org/major-articles/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2020/05/sule.pdf",
+      "title": "Responsibility of Scientists towards Building Scientific Temper in Society",
+      "category": "major_article",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-c6be7e8deb93dc88f4dfa79aa8d42228",
+      "source_url": "https://breakthroughindia.org/major-articles/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2020/05/temper.pdf",
+      "title": "What is Scientific Temper?",
+      "category": "major_article",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-9f0cf313e82d168a6d6163d6bebab2cc",
+      "source_url": "https://breakthroughindia.org/major-articles/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2020/05/tov.pdf",
+      "title": "The Transit of Venus 2012: A Celestial Spectacle",
+      "category": "major_article",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-4a1ad3c5465762fd6bbeeeb6ae9e5d25",
+      "source_url": "https://breakthroughindia.org/major-articles/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2020/05/year2012-1.pdf",
+      "title": "Year 2012: Will the World Really Come to an End?",
+      "category": "major_article",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-b652b7b04b55686bfda5b462c6bd6b9e",
+      "source_url": "https://breakthroughindia.org/major-articles/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2020/07/bruno.pdf",
+      "title": "Giordano Bruno: An everburning flame of commitment to truth and reason",
+      "category": "major_article",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-de0610ad453a6d8d93e67fcc89608fb7",
+      "source_url": "https://breakthroughindia.org/major-articles/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2022/06/Indian-Knowledge-System.pdf",
+      "title": "Indian Knowledge systems: The Central Plank of the New Education Policy",
+      "category": "major_article",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-62818dc4a47bb68fa59ab6f90d2b7579",
+      "source_url": "https://breakthroughindia.org/breakthrough-journal-old-issues/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2022/11/all-Breakthrough-Journal-contents.pdf",
+      "title": "Contents of old issues of Breakthrough Journal",
+      "category": "magazine_issue",
+      "series": "breakthrough-journal",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-c564af8a683e1faa5d022be017931165",
+      "source_url": "https://breakthroughindia.org/breakthrough-journal-old-issues/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2022/11/Breakthrough-12dec.pdf",
+      "title": "Breakthrough-12dec",
+      "category": "magazine_issue",
+      "series": "breakthrough-journal",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-d3948582c598fb0b351b4a677c9a99c0",
+      "source_url": "https://breakthroughindia.org/breakthrough-journal-old-issues/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2022/11/Breakthrough-12Feb.pdf",
+      "title": "Breakthrough-12Feb",
+      "category": "magazine_issue",
+      "series": "breakthrough-journal",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-95c2226ef57be5256fb27079111e23cc",
+      "source_url": "https://breakthroughindia.org/breakthrough-journal-old-issues/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2022/11/Breakthrough-12june.pdf",
+      "title": "Breakthrough-12june",
+      "category": "magazine_issue",
+      "series": "breakthrough-journal",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-391ecdd7e92605168733d10e5156bb13",
+      "source_url": "https://breakthroughindia.org/breakthrough-journal-old-issues/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2022/11/Breakthrough-13april.pdf",
+      "title": "Breakthrough-13april",
+      "category": "magazine_issue",
+      "series": "breakthrough-journal",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-5368b98c4a94eb2f42c6ffffd2f8591f",
+      "source_url": "https://breakthroughindia.org/breakthrough-journal-old-issues/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2022/11/Breakthrough-13sept.pdf",
+      "title": "Breakthrough-13sept",
+      "category": "magazine_issue",
+      "series": "breakthrough-journal",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-e1f9af54915d14ae7fc7a6c5c1f2550f",
+      "source_url": "https://breakthroughindia.org/breakthrough-journal-old-issues/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2022/11/Breakthrough-14jan.pdf",
+      "title": "Breakthrough-14jan",
+      "category": "magazine_issue",
+      "series": "breakthrough-journal",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-d43950eeaf422aed4ac5227565a257dd",
+      "source_url": "https://breakthroughindia.org/breakthrough-journal-old-issues/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2022/11/Breakthrough-14july.pdf",
+      "title": "Breakthrough-14july",
+      "category": "magazine_issue",
+      "series": "breakthrough-journal",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-36a4a8f574458cc06f3f0a908bd1ede5",
+      "source_url": "https://breakthroughindia.org/breakthrough-journal-old-issues/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2022/11/Breakthrough-14nov.pdf",
+      "title": "Breakthrough-14nov",
+      "category": "magazine_issue",
+      "series": "breakthrough-journal",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-b0eb5f2fd0bf50c96b1cb45a8b62bf3d",
+      "source_url": "https://breakthroughindia.org/breakthrough-journal-old-issues/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2022/11/Breakthrough-15aug.pdf",
+      "title": "Breakthrough-15aug",
+      "category": "magazine_issue",
+      "series": "breakthrough-journal",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-98539263d081234d748c8ebacc5fe955",
+      "source_url": "https://breakthroughindia.org/breakthrough-journal-old-issues/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2022/11/Breakthrough-15feb.pdf",
+      "title": "Breakthrough-15feb",
+      "category": "magazine_issue",
+      "series": "breakthrough-journal",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-c38a725e669c04025450b378a68b70a3",
+      "source_url": "https://breakthroughindia.org/breakthrough-journal-old-issues/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2022/11/Breakthrough-15may.pdf",
+      "title": "Breakthrough-15may",
+      "category": "magazine_issue",
+      "series": "breakthrough-journal",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-20290f2b0b508c897b7fcaf63986400b",
+      "source_url": "https://breakthroughindia.org/breakthrough-journal-old-issues/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2022/11/Breakthrough-15nov.pdf",
+      "title": "Breakthrough-15nov",
+      "category": "magazine_issue",
+      "series": "breakthrough-journal",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-edb98e2208824c9f703bbcdd0598e446",
+      "source_url": "https://breakthroughindia.org/breakthrough-journal-old-issues/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2022/11/Breakthrough-16feb.pdf",
+      "title": "Breakthrough-16feb",
+      "category": "magazine_issue",
+      "series": "breakthrough-journal",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-4d864b11ca68d41da867f3caff6e3209",
+      "source_url": "https://breakthroughindia.org/breakthrough-journal-old-issues/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2022/11/Breakthrough-16july.pdf",
+      "title": "Breakthrough-16july",
+      "category": "magazine_issue",
+      "series": "breakthrough-journal",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-4b08bfffb0db5351bb4b5f170ef0d96e",
+      "source_url": "https://breakthroughindia.org/breakthrough-journal-old-issues/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2022/11/Breakthrough-16nov.pdf",
+      "title": "Breakthrough-16nov",
+      "category": "magazine_issue",
+      "series": "breakthrough-journal",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-edaa338659ea94d1eefdf6153e6dc3c7",
+      "source_url": "https://breakthroughindia.org/breakthrough-journal-old-issues/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2022/11/Breakthrough-17feb.pdf",
+      "title": "Breakthrough-17feb",
+      "category": "magazine_issue",
+      "series": "breakthrough-journal",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-f3821f18699dc13759e68a72402c1a8e",
+      "source_url": "https://breakthroughindia.org/breakthrough-journal-old-issues/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2022/11/Breakthrough-17may.pdf",
+      "title": "Breakthrough-17may",
+      "category": "magazine_issue",
+      "series": "breakthrough-journal",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-6870c5d6e46314aa87fd2a603621bece",
+      "source_url": "https://breakthroughindia.org/breakthrough-journal-old-issues/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2022/11/Breakthrough-17oct.pdf",
+      "title": "Breakthrough-17oct",
+      "category": "magazine_issue",
+      "series": "breakthrough-journal",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-46edf8409d178bd87bb1c69fcd561794",
+      "source_url": "https://breakthroughindia.org/breakthrough-journal-old-issues/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2022/11/Breakthrough-18jan.pdf",
+      "title": "Breakthrough-18jan",
+      "category": "magazine_issue",
+      "series": "breakthrough-journal",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-726dc8bb4a027adb97deb14564d11127",
+      "source_url": "https://breakthroughindia.org/breakthrough-journal-old-issues/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2022/11/Breakthrough-18may.pdf",
+      "title": "Breakthrough-18may",
+      "category": "magazine_issue",
+      "series": "breakthrough-journal",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-07c66124d80547147e9677cf2825aba3",
+      "source_url": "https://breakthroughindia.org/breakthrough-journal-old-issues/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2022/11/Breakthrough-18oct.pdf",
+      "title": "Breakthrough-18oct",
+      "category": "magazine_issue",
+      "series": "breakthrough-journal",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-db3f4aaf4d9c5c5688e15127555d549d",
+      "source_url": "https://breakthroughindia.org/breakthrough-journal-old-issues/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2022/11/Breakthrough-19feb.pdf",
+      "title": "Breakthrough-19feb",
+      "category": "magazine_issue",
+      "series": "breakthrough-journal",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-dc33de3f21d630d3d4fc9086bb05f0ee",
+      "source_url": "https://breakthroughindia.org/breakthrough-journal-old-issues/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2022/11/Breakthrough-19june.pdf",
+      "title": "Breakthrough-19june",
+      "category": "magazine_issue",
+      "series": "breakthrough-journal",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-88068879a396312c29f6afd4accc7b9b",
+      "source_url": "https://breakthroughindia.org/breakthrough-journal-old-issues/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2022/11/Breakthrough-19oct.pdf",
+      "title": "Breakthrough-19oct",
+      "category": "magazine_issue",
+      "series": "breakthrough-journal",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-59f458b407e51f22802bfe44d681562a",
+      "source_url": "https://breakthroughindia.org/breakthrough-journal-old-issues/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2022/11/Breakthrough-20jan.pdf",
+      "title": "Breakthrough-20Jan",
+      "category": "magazine_issue",
+      "series": "breakthrough-journal",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-7bd0d2e7bf3ac1ac6323c8eef36e859a",
+      "source_url": "https://breakthroughindia.org/breakthrough-journal-old-issues/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2022/11/Breakthrough-20may.pdf",
+      "title": "Breakthrough-20may",
+      "category": "magazine_issue",
+      "series": "breakthrough-journal",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-16c5222ce30c4e45dde584d2670c66b5",
+      "source_url": "https://breakthroughindia.org/breakthrough-journal-old-issues/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2022/11/Breakthrough-Feb22.pdf",
+      "title": "Breakthrough-Feb22",
+      "category": "magazine_issue",
+      "series": "breakthrough-journal",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-0a20b2cd63a0202698fac27c4ec6bc37",
+      "source_url": "https://breakthroughindia.org/breakthrough-journal-old-issues/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2022/11/Breakthrough-January2021.pdf",
+      "title": "Breakthrough-January2021",
+      "category": "magazine_issue",
+      "series": "breakthrough-journal",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-d0aa0b368e21084a79b0c9e1120969c6",
+      "source_url": "https://breakthroughindia.org/breakthrough-journal-old-issues/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2022/11/Breakthrough-Sept21.pdf",
+      "title": "Breakthrough-Sept21",
+      "category": "magazine_issue",
+      "series": "breakthrough-journal",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-819a78a50dc0a4ec0a13d2a320e42ffb",
+      "source_url": "https://breakthroughindia.org/major-articles/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2023/11/bt1.pdf",
+      "title": "Part 1 – The Indus Valley Civilization",
+      "category": "major_article",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-1f41dd8105830f49b9e6d4d6ff9b5cbc",
+      "source_url": "https://breakthroughindia.org/major-articles/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2023/11/bt2.pdf",
+      "title": "Part 3 – The Enigma of the River Saraswati",
+      "category": "major_article",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    },
+    {
+      "inventory_id": "legacy-c99eb0171ba7c265974199e29bdc5509",
+      "source_url": "https://breakthroughindia.org/major-articles/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2023/11/bt4-15.pdf",
+      "title": "Part 2 — The Aryans and the Vedic Civilization",
+      "category": "major_article",
+      "rights_status": "review_required",
+      "disposition": "pending",
+      "notes": ""
+    }
+  ],
+  "summary": {
+    "total": 94,
+    "pending": 94,
+    "migrate": 0,
+    "redirect": 0,
+    "exclude": 0,
+    "missing": 0,
+    "reviewed": 0,
+    "reconciled": false
+  },
+  "excluded_report": [
+    {
+      "scope": "unreviewed legacy PDFs",
+      "reason": "No individual asset is classified as excluded until the generated inventory receives editorial and rights review."
+    }
+  ],
+  "missing_report": []
+}

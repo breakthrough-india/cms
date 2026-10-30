@@ -1,27 +1,29 @@
 ---
-title: "About"
+title: "About Us"
 date: 2025-01-01
 draft: false
 layout: about
-description: "Learn about this site."
+description: "Learn about Breakthrough Science Society, its history, objectives, and commitment to building a scientific culture in India."
 ---
 
-## About Us
+## About Breakthrough Science Society
 
-Welcome to this site. We cover news, articles, and stories from Karnataka and beyond, with a focus on topics that matter to our readers. Our goal is simple — deliver quality information, clearly and freely.
+Breakthrough Science Society (BSS) was established in 1995 as a platform for building a new science movement across India. It is a non-profit social welfare organisation registered under the West Bengal Societies Registration Act, 1961 (Registration No. S/86180 of 1996–97).
 
-## What We Publish
+## Our Objectives
 
-The site has two main sections:
+- Promote scientific temper and help establish a scientific culture in society.
+- Explain and popularise scientific discoveries and advances so that they are accessible to everyone.
+- Build awareness against superstition, unscientific ideas, fanaticism, bigotry, communalism, casteism, and other forms of orthodoxy.
+- Encourage the study of the history and philosophy of science.
+- Uphold ethical values and social responsibility in every field of scientific work.
+- Advance a scientific education system through sound methods of teaching and learning.
+- Oppose applications of science that harm society or threaten humanity.
+- Campaign for an education policy that is secular, scientific, and democratic.
+- Mobilise public opinion for people-centred policies in scientific research, development, and technology.
+- Work to protect and socialise natural resources, safeguard the environment, and address the effects of climate change.
+- Stand with people and provide relief during natural calamities.
 
-**News** — Concise, clear reporting on events from Karnataka and India. Our coverage spans politics, environment, economy, and society.
+## Our Constitution
 
-**Articles** — In-depth, analytical writing on technology, culture, nature, and more. Every piece is grounded in honest research and written with care.
-
-## Our Technology
-
-This site is built with [Hugo](https://gohugo.io), a fast static site generator. Content is managed through [Sveltia CMS](https://github.com/sveltia/sveltia-cms) and published via GitHub Pages. It is a fully open-source JAMstack site.
-
-## Get in Touch
-
-We welcome feedback, suggestions, and contributions. Reach out through the social links in the footer — there is always room for your voice here.
+{{< publication-document label="Constitution of Breakthrough Science Society (PDF, 10 February 2025)" >}}

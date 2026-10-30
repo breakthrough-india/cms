@@ -1,0 +1,21 @@
+{{ define "main" }}
+  {{ $pages := where site.RegularPages "Section" "publications" }}
+  {{ $pages = where $pages "Params.catalogue" "ne" false }}
+  {{ $pages = where $pages "Date" "le" now }}
+  {{ if strings.HasSuffix .RelPermalink "/magazines/" }}{{ $pages = where $pages "Params.publication_type" "magazine_issue" }}{{ end }}
+  {{ if strings.HasSuffix .RelPermalink "/major-articles/" }}{{ $pages = where $pages "Params.publication_type" "major_article" }}{{ end }}
+  {{ if strings.HasSuffix .RelPermalink "/books/" }}{{ $pages = where $pages "Params.publication_type" "book" }}{{ end }}
+  {{ with .Params.publication_series }}{{ $pages = where $pages "Params.series" . }}{{ end }}
+  {{ $pages = $pages.ByDate.Reverse }}
+  <div class="content-wrap content-wrap--wide publications-page">
+    <header class="publications-hero"><p class="publications-hero__eyebrow">Breakthrough Science Society</p><h1>{{ .Title }}</h1>{{ with .Description }}<p>{{ . }}</p>{{ end }}</header>
+    {{ partial "publications/filters.html" $pages }}
+    <noscript><p class="publication-noscript">All available publications are listed below. Search and filters require JavaScript.</p></noscript>
+    <div class="publication-grid" data-publication-grid>
+      {{ range $pages }}{{ partial "publications/card.html" . }}{{ else }}<p class="publication-empty-static">No publications are available yet.</p>{{ end }}
+    </div>
+    {{ partial "publications/empty.html" . }}
+  </div>
+  {{ $script := resources.Get "js/publications.js" | minify | fingerprint }}
+  <script src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}" crossorigin="anonymous" defer></script>
+{{ end }}

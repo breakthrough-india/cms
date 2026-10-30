@@ -15,7 +15,7 @@
       {{ with site.Menus.main }}
         {{ range . }}
           {{ if ne .Params.class "nav-membership" }}
-        <li><a href="{{ .URL }}"{{ if $.IsMenuCurrent "main" . }} aria-current="page"{{ end }}{{ with .Params.class }} class="{{ . }}"{{ end }}>{{ i18n .Identifier | default .Name }}</a></li>
+            {{ partial "menu-tree.html" (dict "entry" . "page" $ "level" 0) }}
           {{ end }}
         {{ end }}
       {{ end }}

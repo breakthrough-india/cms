@@ -1,0 +1,10 @@
+{{- $document := .Params.document -}}
+{{- $base := strings.TrimRight "/" (hugo.Data.settings.publication_asset_base_url | default "") -}}
+{{- if and $document $base -}}
+  <a class="publication-action" href="{{ printf "%s/%s" $base $document.key | safeURL }}" target="_blank" rel="noopener noreferrer">
+    {{ $document.label | default "Read PDF" }}
+    <span class="publication-action__meta">PDF · {{ div $document.bytes 1048576.0 | lang.FormatNumber 1 }} MB</span>
+  </a>
+{{- else if $document -}}
+  <span class="publication-action publication-action--disabled" aria-disabled="true">{{ $document.label | default "Read PDF" }} <span class="publication-action__meta">temporarily unavailable</span></span>
+{{- end -}}

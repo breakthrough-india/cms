@@ -1,0 +1,13 @@
+{
+  "publication_id": "major-article-one",
+  "title": "Major Article",
+  "slug": "major-article-one",
+  "publication_type": "major_article",
+  "date": "2026-01-01T00:00:00Z",
+  "lastmod": "2026-01-01T00:00:00Z",
+  "draft": false,
+  "catalogue": true,
+  "summary": "An article that is missing its required PDF.",
+  "languages": ["English"],
+  "unexpected": true
+}

@@ -1,0 +1,8 @@
+{{- $cover := .Params.cover -}}
+<div class="publication-cover{{ if not $cover }} publication-cover--empty{{ end }}">
+  {{- with $cover -}}
+    <img src="{{ .src | safeURL }}" alt="{{ .alt }}"{{ with .width }} width="{{ . }}"{{ end }}{{ with .height }} height="{{ . }}"{{ end }} loading="lazy" decoding="async">
+  {{- else -}}
+    <span aria-hidden="true">BSS</span><span class="sr-only">Cover unavailable</span>
+  {{- end -}}
+</div>

@@ -1,0 +1,5 @@
+{{- with .Params.purchase_url -}}
+  <a class="publication-action" href="{{ . | safeURL }}" target="_blank" rel="noopener noreferrer">
+    {{ $.Params.price_text | default "View book" }}
+  </a>
+{{- end -}}
