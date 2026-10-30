@@ -986,6 +986,192 @@
       "rights_status": "review_required",
       "disposition": "pending",
       "notes": ""
+    },
+    {
+      "inventory_id": "seed-breakthrough-june-2025",
+      "source_url": "https://breakthroughindia.org/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2025/07/bt1.pdf",
+      "title": "Breakthrough Journal — June 2025",
+      "category": "magazine_issue",
+      "series": "breakthrough-journal",
+      "rights_status": "approved",
+      "disposition": "migrate",
+      "notes": "Owner requested publication 2026-10-30; PDF uploaded and verified. See seed-import.md.",
+      "record": {
+        "publication_id": "breakthrough-june-2025",
+        "slug": "breakthrough-june-2025",
+        "title": "Breakthrough Journal — June 2025",
+        "publication_type": "magazine_issue",
+        "date": "2025-06-01T00:00:00Z",
+        "lastmod": "2026-10-30T13:00:00.733Z",
+        "draft": false,
+        "catalogue": true,
+        "summary": "Breakthrough Journal — June 2025. Published by Breakthrough Science Society.",
+        "languages": [
+          "en"
+        ],
+        "legacy_urls": [
+          "https://breakthroughindia.org/wp-content/uploads/2025/07/bt1.pdf"
+        ],
+        "document": {
+          "asset_id": "63e39b1b3506130f348233d02d5129a5",
+          "key": "publications/magazine-issue/2025/63e39b1b3506130f348233d02d5129a5-breakthrough-june-2025.pdf",
+          "filename": "breakthrough-june-2025.pdf",
+          "media_type": "application/pdf",
+          "bytes": 39193,
+          "sha256": "63e39b1b3506130f348233d02d5129a5b076149fc73c80429fd760ce5ddd5d45",
+          "label": "Read PDF"
+        },
+        "series": "breakthrough-journal"
+      }
+    },
+    {
+      "inventory_id": "seed-breakthrough-october-2025",
+      "source_url": "https://breakthroughindia.org/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2025/10/bt0.pdf",
+      "title": "Breakthrough Journal — October 2025",
+      "category": "magazine_issue",
+      "series": "breakthrough-journal",
+      "rights_status": "approved",
+      "disposition": "migrate",
+      "notes": "Owner requested publication 2026-10-30; PDF uploaded and verified. See seed-import.md.",
+      "record": {
+        "publication_id": "breakthrough-october-2025",
+        "slug": "breakthrough-october-2025",
+        "title": "Breakthrough Journal — October 2025",
+        "publication_type": "magazine_issue",
+        "date": "2025-10-01T00:00:00Z",
+        "lastmod": "2026-10-30T12:59:56.671Z",
+        "draft": false,
+        "catalogue": true,
+        "summary": "Breakthrough Journal — October 2025. Published by Breakthrough Science Society.",
+        "languages": [
+          "en"
+        ],
+        "legacy_urls": [
+          "https://breakthroughindia.org/wp-content/uploads/2025/10/bt0.pdf"
+        ],
+        "document": {
+          "asset_id": "23db4d63d5e820b57def674ed73b42d1",
+          "key": "publications/magazine-issue/2025/23db4d63d5e820b57def674ed73b42d1-breakthrough-october-2025.pdf",
+          "filename": "breakthrough-october-2025.pdf",
+          "media_type": "application/pdf",
+          "bytes": 39563,
+          "sha256": "23db4d63d5e820b57def674ed73b42d1ddf2c11d16871b26291d68569976b3a0",
+          "label": "Read PDF"
+        },
+        "series": "breakthrough-journal"
+      }
+    },
+    {
+      "inventory_id": "seed-great-nicobar-island",
+      "source_url": "https://breakthroughindia.org/major-articles/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2025/10/Nicobar-destruction.pdf",
+      "title": "Great Nicobar Island — A Catastrophe in the Making",
+      "category": "major_article",
+      "rights_status": "approved",
+      "disposition": "migrate",
+      "notes": "Owner requested publication 2026-10-30; PDF uploaded and verified. See seed-import.md.",
+      "record": {
+        "publication_id": "great-nicobar-island",
+        "slug": "great-nicobar-island",
+        "title": "Great Nicobar Island — A Catastrophe in the Making",
+        "publication_type": "major_article",
+        "date": "2023-11-01T00:00:00Z",
+        "lastmod": "2026-10-30T13:00:16.440Z",
+        "draft": false,
+        "catalogue": true,
+        "summary": "Great Nicobar Island — A Catastrophe in the Making. Published by Breakthrough Science Society.",
+        "languages": [
+          "en"
+        ],
+        "legacy_urls": [
+          "https://breakthroughindia.org/wp-content/uploads/2025/10/Nicobar-destruction.pdf"
+        ],
+        "document": {
+          "asset_id": "aeb2796eb6fd745695e05ce506ff9a49",
+          "key": "publications/major-article/2023/aeb2796eb6fd745695e05ce506ff9a49-great-nicobar-island.pdf",
+          "filename": "great-nicobar-island.pdf",
+          "media_type": "application/pdf",
+          "bytes": 135620,
+          "sha256": "aeb2796eb6fd745695e05ce506ff9a49b790463b55ff75eba9d23c80975f502c",
+          "label": "Read PDF"
+        }
+      }
+    },
+    {
+      "inventory_id": "seed-vigyan-chetna-september-2020",
+      "source_url": "https://breakthroughindia.org/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2020/09/BSS-HINDI-MAGAZINE-VIGYAN-CHETNA-SEPTEMBER-2020-FINAL.pmd_.pdf",
+      "title": "Vigyan Chetna — September 2020",
+      "category": "magazine_issue",
+      "series": "breakthrough-bulletin-hindi",
+      "rights_status": "approved",
+      "disposition": "migrate",
+      "notes": "Owner requested publication 2026-10-30; PDF uploaded and verified. See seed-import.md.",
+      "record": {
+        "publication_id": "vigyan-chetna-september-2020",
+        "slug": "vigyan-chetna-september-2020",
+        "title": "Vigyan Chetna — September 2020",
+        "publication_type": "magazine_issue",
+        "date": "2020-09-01T00:00:00Z",
+        "lastmod": "2026-10-30T13:00:12.877Z",
+        "draft": false,
+        "catalogue": true,
+        "summary": "Vigyan Chetna — September 2020. Published by Breakthrough Science Society.",
+        "languages": [
+          "hi"
+        ],
+        "legacy_urls": [
+          "https://breakthroughindia.org/wp-content/uploads/2020/09/BSS-HINDI-MAGAZINE-VIGYAN-CHETNA-SEPTEMBER-2020-FINAL.pmd_.pdf"
+        ],
+        "document": {
+          "asset_id": "992d758915a7aca510ec6cf4f4d0afc1",
+          "key": "publications/magazine-issue/2020/992d758915a7aca510ec6cf4f4d0afc1-vigyan-chetna-september-2020.pdf",
+          "filename": "vigyan-chetna-september-2020.pdf",
+          "media_type": "application/pdf",
+          "bytes": 9573785,
+          "sha256": "992d758915a7aca510ec6cf4f4d0afc1ee1f40f8f2deecfa1696b628f4c2b18f",
+          "label": "Read PDF"
+        },
+        "series": "breakthrough-bulletin-hindi"
+      }
+    },
+    {
+      "inventory_id": "seed-war-militarism-climate",
+      "source_url": "https://breakthroughindia.org/major-articles/",
+      "legacy_url": "https://breakthroughindia.org/wp-content/uploads/2025/10/Militarism-climate-crisis.pdf",
+      "title": "War and Militarism: A Leading Cause of Environmental and Climate Crises",
+      "category": "major_article",
+      "rights_status": "approved",
+      "disposition": "migrate",
+      "notes": "Owner requested publication 2026-10-30; PDF uploaded and verified. See seed-import.md.",
+      "record": {
+        "publication_id": "war-militarism-climate",
+        "slug": "war-militarism-climate",
+        "title": "War and Militarism: A Leading Cause of Environmental and Climate Crises",
+        "publication_type": "major_article",
+        "date": "2025-06-01T00:00:00Z",
+        "lastmod": "2026-10-30T13:00:20.081Z",
+        "draft": false,
+        "catalogue": true,
+        "summary": "War and Militarism: A Leading Cause of Environmental and Climate Crises. Published by Breakthrough Science Society.",
+        "languages": [
+          "en"
+        ],
+        "legacy_urls": [
+          "https://breakthroughindia.org/wp-content/uploads/2025/10/Militarism-climate-crisis.pdf"
+        ],
+        "document": {
+          "asset_id": "e006c5238994caec6bfe5eeb29bbaade",
+          "key": "publications/major-article/2025/e006c5238994caec6bfe5eeb29bbaade-war-militarism-climate.pdf",
+          "filename": "war-militarism-climate.pdf",
+          "media_type": "application/pdf",
+          "bytes": 97970,
+          "sha256": "e006c5238994caec6bfe5eeb29bbaade67306f515d9dc83dbcb5db46bd371319",
+          "label": "Read PDF"
+        }
+      }
     }
   ],
   "summary": {

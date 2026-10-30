@@ -30,7 +30,7 @@ filter it, and identify a relevant item using only the visible navigation and la
 
 1. **Given** a reader is using a pointer, keyboard, or touch device, **When** they open Publications,
    **Then** they can reach Magazines, Major articles, Books, and the three named magazine series.
-2. **Given** a collection contains multiple years and languages, **When** the reader searches or
+2. **Given** Search Publications contains multiple years and languages, **When** the reader searches or
    filters it, **Then** only matching published items remain and the active filters are clear.
 3. **Given** no items match, **When** filters are applied, **Then** the page explains the empty result
    and offers a one-step reset.
@@ -125,9 +125,9 @@ new canonical destination, and migrated records retain source provenance.
   the current location to assistive technology.
 - **FR-004**: The Publications landing page MUST introduce the archive and provide direct access to
   every publication type and magazine series.
-- **FR-005**: Collection pages MUST support search by title or contributor and filtering by type,
+- **FR-005**: The dedicated Search Publications page at `/publications/` MUST support search by title, summary, or topic and filtering by type,
   series, language, topic, and year when those values exist.
-- **FR-006**: Collection state MUST be shareable through a stable URL and MUST provide a visible
+- **FR-006**: Search Publications state MUST be shareable through a stable URL and MUST provide a visible
   result count and reset action.
 - **FR-007**: Publication cards MUST show title, type or series, publication date or year, language,
   and cover/thumbnail when available.

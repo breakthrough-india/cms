@@ -22,8 +22,8 @@ the source site treats them as a distinct publication collection and many are PD
 
 ## Decision 2: Use Git for metadata and R2 Standard for binary documents
 
-**Decision**: Store publication metadata as Hugo content and large PDFs in a dedicated R2 Standard
-bucket. The content record stores an immutable asset key and metadata; the public hostname is derived
+**Decision**: Store publication metadata as Hugo content and large PDFs under `publications/` in the existing `cms-media` R2 Standard
+bucket, using a separate Publications Worker binding. The content record stores an immutable asset key and metadata; the public hostname is derived
 from configuration.
 
 **Rationale**: The site already builds from Git, so this retains review, history, rollback, and static

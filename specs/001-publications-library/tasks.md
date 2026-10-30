@@ -85,6 +85,8 @@ to one canonical publication/About destination.
 
 ## Dependencies and Parallel Work
 
+Current amendments and release evidence: [reconciliation.md](reconciliation.md). Partial seed import does not complete full migration or manual review tasks.
+
 - Phase 1 precedes Phase 2; Phase 2 blocks all stories.
 - After Phase 2, US1 and US2 can run in parallel on distinct partials/tests with coordination on
   `assets/scss/main.scss`; US3 fixtures can progress independently; US4 waits for the approved
