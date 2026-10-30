@@ -4,6 +4,12 @@ title = 'Breakthrough Science Society'
 cleanDestinationDir = true
 
 [[menus.main]]
+  identifier = "home"
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menus.main]]
   name   = "Articles"
   url    = "/articles/"
   weight = 10
@@ -15,10 +21,10 @@ cleanDestinationDir = true
   weight = 20
 
 [[menus.main]]
-  name   = "All Publications"
+  name   = "Search Publications"
   url    = "/publications/"
   parent = "publications"
-  weight = 1
+  weight = 40
 
 [[menus.main]]
   identifier = "publications-magazines"

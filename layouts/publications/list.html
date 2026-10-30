@@ -9,13 +9,17 @@
   {{ $pages = $pages.ByDate.Reverse }}
   <div class="content-wrap content-wrap--wide publications-page">
     <header class="publications-hero"><p class="publications-hero__eyebrow">Breakthrough Science Society</p><h1>{{ .Title }}</h1>{{ with .Description }}<p>{{ . }}</p>{{ end }}</header>
+    {{ if .Params.publication_search }}
     {{ partial "publications/filters.html" $pages }}
     <noscript><p class="publication-noscript">All available publications are listed below. Search and filters require JavaScript.</p></noscript>
+    {{ end }}
     <div class="publication-grid" data-publication-grid>
       {{ range $pages }}{{ partial "publications/card.html" . }}{{ else }}<p class="publication-empty-static">No publications are available yet.</p>{{ end }}
     </div>
-    {{ partial "publications/empty.html" . }}
+    {{ if .Params.publication_search }}{{ partial "publications/empty.html" . }}{{ end }}
   </div>
+  {{ if .Params.publication_search }}
   {{ $script := resources.Get "js/publications.js" | minify | fingerprint }}
   <script src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}" crossorigin="anonymous" defer></script>
+  {{ end }}
 {{ end }}
