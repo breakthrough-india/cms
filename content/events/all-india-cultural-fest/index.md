@@ -4,7 +4,7 @@ slug: study-class
 date: 2026-10-30T19:31:00+05:30
 lastmod: 2026-05-14T00:00:00Z
 draft: false
-description: A celebration of India's diverse cultural heritage — music, dance, crafts, and cuisine from state chapters across the country.
+description: A 2 day study class on Science and Philosophy
 author: Admin
 event_date: 2026-12-12T14:30:00+05:30
 event_end_date: 2026-12-13T01:30:00+05:30
