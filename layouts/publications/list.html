@@ -8,7 +8,7 @@
   {{ with .Params.publication_series }}{{ $pages = where $pages "Params.series" . }}{{ end }}
   {{ $pages = $pages.ByDate.Reverse }}
   <div class="content-wrap content-wrap--wide publications-page">
-    <header class="publications-hero"><p class="publications-hero__eyebrow">Breakthrough Science Society</p><h1>{{ .Title }}</h1>{{ with .Description }}<p>{{ . }}</p>{{ end }}</header>
+    <header class="publications-hero"><h1>{{ .Title }}</h1>{{ with .Description }}<p>{{ . }}</p>{{ end }}</header>
     {{ if .Params.publication_search }}
     {{ partial "publications/filters.html" $pages }}
     <noscript><p class="publication-noscript">All available publications are listed below. Search and filters require JavaScript.</p></noscript>
